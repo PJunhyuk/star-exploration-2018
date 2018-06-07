@@ -1,0 +1,76 @@
+<wpml-config>
+  <admin-texts>
+    <key name="ventcamp_customizer">
+      <key name="hero_social">
+        <key name="0">
+          <key name="url"/>
+        </key>
+        <key name="1">
+          <key name="url"/>
+        </key>
+        <key name="2">
+          <key name="url"/>
+        </key>
+        <key name="3">
+          <key name="url"/>
+        </key>
+        <key name="4">
+          <key name="url"/>
+        </key>
+        <key name="5">
+          <key name="url"/>
+        </key>
+      </key>
+      <key name="footer_social">
+        <key name="0">
+          <key name="url"/>
+        </key>
+        <key name="1">
+          <key name="url"/>
+        </key>
+        <key name="2">
+          <key name="url"/>
+        </key>
+        <key name="3">
+          <key name="url"/>
+        </key>
+        <key name="4">
+          <key name="url"/>
+        </key>
+        <key name="5">
+          <key name="url"/>
+        </key>
+      </key>
+      <key name="hero_heading_upper_text_date"/>
+      <key name="hero_heading_upper_text_location"/>
+      <key name="logotype_image"/>
+      <key name="logotype_image_retina"/>
+      <key name="hero_style_1_button_text"/>
+      <key name="hero_style_1_button_link"/>
+      <key name="hero_style_1_button_alt_text"/>
+      <key name="hero_style_1_button_alt_link"/>
+      <key name="hero_style_2_form_select"/>
+      <key name="hero_style_3_form_select"/>
+      <key name="hero_style_4_left_image"/>
+      <key name="hero_style_4_left_image_link"/>
+      <key name="hero_style_4_button_text"/>
+      <key name="hero_style_4_button_link"/>
+      <key name="hero_style_4_button_alt_text"/>
+      <key name="hero_style_4_button_alt_link"/>
+      <key name="hero_background_image"/>
+      <key name="hero_background_video"/>
+      <key name="hero_top_line_text"/>
+      <key name="hero_heading_text"/>
+      <key name="hero_heading_image"/>
+      <key name="hero_heading_image_retina"/>
+      <key name="hero_heading_lower_text"/>
+      <key name="header_button_text"/>
+      <key name="header_button_link"/>
+      <key name="footer_text"/>
+      <key name="customcode_global_css"/>
+      <key name="customcode_global_js"/>
+      <key name="customcode_tablet_css"/>
+      <key name="customcode_phone_css"/>
+    </key>
+  </admin-texts>
+</wpml-config>

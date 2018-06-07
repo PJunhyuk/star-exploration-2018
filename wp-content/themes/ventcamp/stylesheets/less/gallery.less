@@ -1,0 +1,76 @@
+/* ----------------------------------------------------------------------------
+    Gallery
+---------------------------------------------------------------------------- */
+
+
+.vc_gitem-zone .vc-zone-link {
+    overflow: hidden;
+    z-index: 10;
+
+    &:hover,
+    &:active {
+        &:before {
+            opacity: 1;
+        }
+
+        &:after {
+            opacity: 1;
+            -webkit-transform: scale(1, 1);
+                -ms-transform: scale(1, 1);
+                 -o-transform: scale(1, 1);
+                    transform: scale(1, 1);
+        }
+    }
+
+    &:active:after {
+        -webkit-box-shadow: 0 0 30px 4px @skin_accent_color;
+                box-shadow: 0 0 30px 4px @skin_accent_color;
+    }
+
+    &:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        content: "";
+        background-color: fade(@black, 60%);
+        opacity: 0;
+        z-index: 1;
+        -webkit-transition: opacity 0.25s ease-out;
+             -o-transition: opacity 0.25s ease-out;
+                transition: opacity 0.25s ease-out;
+    }
+
+    &:after {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -30px 0 0 -30px;
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        font: normal normal normal 14px/1 FontAwesome;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 24px;
+        text-align: center;
+        line-height: 59px;
+        color: @text-white;
+        content: "\f002";
+        background-color: @skin_accent_color;
+        border-radius: 50%;
+        opacity: 0;
+        z-index: 2;
+        -webkit-box-shadow: 0 0 0 0 fade(@skin_accent_color, 50%);
+                box-shadow: 0 0 0 0 fade(@skin_accent_color, 50%);
+        -webkit-transition: box-shadow 0.2s ease-out, opacity 0.25s ease-out, transform 0.25s ease-out;
+             -o-transition: box-shadow 0.2s ease-out, opacity 0.25s ease-out, transform 0.25s ease-out;
+                transition: box-shadow 0.2s ease-out, opacity 0.25s ease-out, transform 0.25s ease-out;
+        -webkit-transform: scale(0.1, 0.1);
+            -ms-transform: scale(0.1, 0.1);
+             -o-transform: scale(0.1, 0.1);
+                transform: scale(0.1, 0.1);
+    }
+}

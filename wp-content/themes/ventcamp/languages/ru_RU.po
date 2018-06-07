@@ -1,0 +1,3042 @@
+# Copyright (C) 2017 Vivaco
+# This file is distributed under the This WordPress theme is comprised of two parts: (1) The PHP code and integrated HTML are licensed under the GPL license as is WordPress itself.  You will find a copy of.
+msgid ""
+msgstr ""
+"Project-Id-Version: VentCamp 1.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/ventcamp-wordpress-"
+"theme\n"
+"POT-Creation-Date: 2017-01-13 23:04:10+00:00\n"
+"PO-Revision-Date: 2017-01-14 03:05+0400\n"
+"Last-Translator: Sergey Monin <moninsergei@gmail.com>\n"
+"Language-Team: VentCamp team <moninsergei@gmail.com>\n"
+"Language: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: 404.php:9
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Упс! Страница не найдена."
+
+#: 404.php:13
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Похоже что здесь ничего нет. Может попробуйте воспользоваться поиском?"
+
+#. translators: %s: post title
+#: comments.php:31
+msgctxt "comments title"
+msgid ""
+"<span class=\"number\">One comment</span> <span class=\"description\">on "
+"&ldquo;%s&rdquo;</span>"
+msgstr ""
+"<span class=\"number\">Один комментарий</span> <span class=\"description\">к "
+"&ldquo;%s&rdquo;</span>"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:35
+msgctxt "comments title"
+msgid ""
+"<span class=\"number\">%1$s comment</span> <span class=\"description\">on "
+"&ldquo;%2$s&rdquo;</span>"
+msgid_plural ""
+"<span class=\"number\">%1$s comments</span> <span class=\"description\">on "
+"&ldquo;%2$s&rdquo;</span>"
+msgstr[0] ""
+"<span class=\"number\">%1$s комментарий</span> <span class=\"description\">к "
+"&ldquo;%2$s&rdquo;</span>"
+msgstr[1] ""
+"<span class=\"number\">%1$s комментария</span> <span class=\"description\">к "
+"&ldquo;%2$s&rdquo;</span>"
+msgstr[2] ""
+"<span class=\"number\">%1$s комментариев</span> <span class=\"description"
+"\">к &ldquo;%2$s&rdquo;</span>"
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#: content-none.php:3
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: content-none.php:10
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Готовы опубликовать вашу первую запись? <a href=\"%1$s\">Начните здесь</a>."
+
+#: content-none.php:14
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Простите, но ничего не найдено по вашему запросу. Попробуйте снова с другими "
+"ключевыми словами."
+
+#: content-none.php:20
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"По вашему запросу ничего не найдено. Попробуйте воспользоваться поиском."
+
+#: content.php:8 extensions/content-extensions.php:123
+msgctxt "Default title for untitled posts"
+msgid "(Untitled)"
+msgstr "(Без заголовка)"
+
+#: extensions/api-integration.php:12 extensions/api-integration.php:13
+msgid "API Integrations"
+msgstr "API интеграция"
+
+#: extensions/api-integration.php:37
+msgid "Options saved."
+msgstr "Настройки сохранены."
+
+#: extensions/api-integration.php:50
+msgid "Ventcamp API Integrations"
+msgstr "Ventcamp API интеграции"
+
+#: extensions/api-integration.php:57
+msgid "Mailchimp API key"
+msgstr "Mailchimp API ключ"
+
+#: extensions/api-integration.php:59
+msgid ""
+"This API key grant full access to your MailChimp account, read more about "
+"API keys in <a href=\"%s\">MailChimp official documentation</a>."
+msgstr ""
+"Этот API ключ предоставляет полный доступ к вашей учетной записи MailChimp, "
+"прочтите больше об API ключах в <a href=\"%s\">официальной документации "
+"MailChimp</a>."
+
+#: extensions/api-integration.php:67
+msgid "Google Maps API key"
+msgstr "Google Maps API ключ"
+
+#: extensions/api-integration.php:69
+msgid ""
+"Google don't support keyless access, read more about how to obtain this key "
+"in <a href=\"%s\">our documentation</a>."
+msgstr ""
+"Google не поддерживает доступ без ключа, читайте подробнее о том, как "
+"получить этот ключ в <a href=\"%s\">нашей документации</a>."
+
+#: extensions/api-integration.php:75
+msgid "Save options"
+msgstr "Сохранить настройки"
+
+#: extensions/content-extensions.php:167
+msgid "Read more"
+msgstr "Читать далее"
+
+#: extensions/content-extensions.php:216
+msgid "Cache directory %s is not writable. Please check folder permissions"
+msgstr ""
+"Кэш-директория %s недоступна для записи. Пожалуйста проверьте доступа для "
+"папки"
+
+#: extensions/content-extensions.php:238
+msgid "Can't find image library! Please install GD or ImageMagick"
+msgstr ""
+"Не могу найти графическую библиотеку! Пожалуйста установите GD или "
+"ImageMagick"
+
+#: extensions/content-extensions.php:255
+msgid "Full width"
+msgstr "На всю ширину"
+
+#: extensions/customizer-extensions.php:45
+msgid "+ General settings"
+msgstr "+ Общие настройки"
+
+#: extensions/customizer-extensions.php:46
+#: extensions/customizer_fields/color.php:7
+msgid "General site settings"
+msgstr "Общие настройки сайта"
+
+#: extensions/customizer-extensions.php:60
+msgid "+ Navigation"
+msgstr "+ Навигация"
+
+#: extensions/customizer-extensions.php:70
+msgid "+ Hero header"
+msgstr "+ Заголовок Hero"
+
+#: extensions/customizer-extensions.php:94
+msgid "+ Footer"
+msgstr "+ Подвал (футер)"
+
+#: extensions/customizer-extensions.php:95
+msgid "Footer settings"
+msgstr "Настройки подвала"
+
+#: extensions/customizer-extensions.php:105
+msgid "+ Buttons"
+msgstr "+ Кнопки"
+
+#: extensions/customizer-extensions.php:106
+msgid "Global buttons settings"
+msgstr "Глобальные настройки кнопок"
+
+#: extensions/customizer-extensions.php:118
+msgid "+ Responsiveness"
+msgstr "+ Отзывчивость"
+
+#: extensions/customizer-extensions.php:119
+#: extensions/customizer_fields/mobile.php:163
+msgid "Styles for mobile mode"
+msgstr "Стили для мобильного режима"
+
+#: extensions/customizer.class.php:90
+msgid "Reset"
+msgstr "Сброс"
+
+#: extensions/customizer.class.php:91
+msgid ""
+"Attention! This will remove all customizations ever made via customizer!\n"
+"\n"
+"This action is irreversible!"
+msgstr ""
+"Внимание! Будут удалены все настройки когда-либо сделанные в кастомайзере!\n"
+"\n"
+"Это действие нельзя отменить!"
+
+#: extensions/customizer_fields/buttons.php:6
+msgid "Primary button"
+msgstr "Главная кнопка"
+
+#: extensions/customizer_fields/buttons.php:15
+msgid "Button font"
+msgstr "Шрифт кнопки"
+
+#: extensions/customizer_fields/buttons.php:37
+#: extensions/customizer_fields/buttons_hover.php:13
+#: extensions/customizer_fields/buttons_hover.php:110
+#: extensions/customizer_fields/buttons_hover.php:227
+#: extensions/customizer_fields/color.php:43
+#: extensions/customizer_fields/footer.php:58
+#: extensions/customizer_fields/mobile.php:138
+msgid "Text color"
+msgstr "Цвет текста"
+
+#: extensions/customizer_fields/buttons.php:48
+#: extensions/customizer_fields/buttons_hover.php:24
+#: extensions/customizer_fields/buttons_hover.php:121
+#: extensions/customizer_fields/buttons_hover.php:238
+#: extensions/customizer_fields/footer.php:38
+#: extensions/customizer_fields/footer.php:85
+#: extensions/customizer_fields/hero_layout_and_background.php:62
+#: extensions/customizer_fields/layout.php:29
+#: extensions/customizer_fields/menu_bar.php:125
+#: extensions/customizer_fields/mobile.php:150
+msgid "Background color"
+msgstr "Цвет фона"
+
+#: extensions/customizer_fields/buttons.php:60
+#: extensions/customizer_fields/buttons_hover.php:36
+#: extensions/customizer_fields/buttons_hover.php:133
+#: extensions/customizer_fields/buttons_hover.php:250
+msgid "Border width"
+msgstr "Ширина границы"
+
+#: extensions/customizer_fields/buttons.php:75
+#: extensions/customizer_fields/buttons_hover.php:51
+#: extensions/customizer_fields/buttons_hover.php:148
+#: extensions/customizer_fields/buttons_hover.php:265
+msgid "Border color"
+msgstr "Цвет границы"
+
+#: extensions/customizer_fields/buttons.php:87
+#: extensions/customizer_fields/buttons_hover.php:63
+#: extensions/customizer_fields/buttons_hover.php:160
+#: extensions/customizer_fields/buttons_hover.php:277
+msgid "Border radius"
+msgstr "Радиус границы"
+
+#: extensions/customizer_fields/buttons_hover.php:5
+msgid "Primary button hover"
+msgstr "Главная кнопка при наведении"
+
+#: extensions/customizer_fields/buttons_hover.php:77
+msgid "Secondary button"
+msgstr "Вторичная кнопка"
+
+#: extensions/customizer_fields/buttons_hover.php:219
+msgid "Secondary button hover"
+msgstr "Вторичная кнопка при наведении"
+
+#: extensions/customizer_fields/color.php:6
+msgid "+ Colors and skin"
+msgstr "+ Цвета и скин"
+
+#: extensions/customizer_fields/color.php:31
+msgid "Accent color"
+msgstr "Цветовой акцент"
+
+#: extensions/customizer_fields/color.php:32
+msgid "Theme accent color"
+msgstr "Цветовой акцент темы"
+
+#: extensions/customizer_fields/color.php:54
+msgid "Heading color"
+msgstr "Цвет заголовка"
+
+#: extensions/customizer_fields/color.php:65
+#: extensions/customizer_fields/menu_bar.php:103
+msgid "Link color"
+msgstr "Цвет ссылки"
+
+#: extensions/customizer_fields/color.php:76
+msgid "Link hover color"
+msgstr "Цвет ссылки при наведении"
+
+#: extensions/customizer_fields/footer.php:6
+msgid "Layout and colors"
+msgstr "Компоновка и цвета"
+
+#: extensions/customizer_fields/footer.php:15
+msgid "Widgets (columns) count"
+msgstr "Количество колонок для виджетов"
+
+#: extensions/customizer_fields/footer.php:30
+msgid "Enable footer widgets"
+msgstr "Включить виджеты в подвале"
+
+#: extensions/customizer_fields/footer.php:48
+msgid "Headings color"
+msgstr "Цвет заголовков"
+
+#: extensions/customizer_fields/footer.php:68
+msgid "Links color"
+msgstr "Цвет ссылок"
+
+#: extensions/customizer_fields/footer.php:77
+msgid "Sub footer"
+msgstr "Под-футер"
+
+#: extensions/customizer_fields/footer.php:100
+msgid "Footer text"
+msgstr "Текст в подвале"
+
+#: extensions/customizer_fields/footer.php:101
+msgid "Add your copyright here"
+msgstr "Добавьте ваш копирайт здесь"
+
+#: extensions/customizer_fields/footer.php:109
+msgid "Footer social links"
+msgstr "Социальные ссылки в подвале"
+
+#: extensions/customizer_fields/footer.php:120
+#: extensions/customizer_fields/hero_top.php:49
+msgid "Site"
+msgstr "Сайт"
+
+#: extensions/customizer_fields/footer.php:126
+#: extensions/customizer_fields/hero_top.php:55
+msgid "Link"
+msgstr "Ссылка"
+
+#: extensions/customizer_fields/hero_layout_and_background.php:5
+msgid "Layout and Background"
+msgstr "Компоновка и фон"
+
+#: extensions/customizer_fields/hero_layout_and_background.php:13
+msgid "Enable hero block"
+msgstr "Включить блок Hero"
+
+#: extensions/customizer_fields/hero_layout_and_background.php:19
+msgid "Show on all pages"
+msgstr "Показывать на всех страницах"
+
+#: extensions/customizer_fields/hero_layout_and_background.php:20
+msgid "Show on Homepage only"
+msgstr "Показывать только на главной"
+
+#: extensions/customizer_fields/hero_layout_and_background.php:21
+msgid "Don't show"
+msgstr "Не показывать"
+
+#: extensions/customizer_fields/hero_layout_and_background.php:27
+msgid "Full height"
+msgstr "На всю высоту"
+
+#: extensions/customizer_fields/hero_layout_and_background.php:37
+msgid "Vertical centering"
+msgstr "Вертикальное центрирование"
+
+#: extensions/customizer_fields/hero_layout_and_background.php:47
+msgid "Background type"
+msgstr "Тип фона"
+
+#: extensions/customizer_fields/hero_layout_and_background.php:53
+#: extensions/customizer_fields/hero_layout_and_background.php:129
+msgid "Solid color"
+msgstr "Сплошной цвет"
+
+#: extensions/customizer_fields/hero_layout_and_background.php:54
+#: extensions/customizer_fields/hero_main_heading.php:20
+#: extensions/customizer_fields/logotype.php:21
+msgid "Image"
+msgstr "Картинка"
+
+#: extensions/customizer_fields/hero_layout_and_background.php:55
+msgid "Video"
+msgstr "Видео"
+
+#: extensions/customizer_fields/hero_layout_and_background.php:72
+msgid "Hero background image"
+msgstr "Hero, фоновое изображение"
+
+#: extensions/customizer_fields/hero_layout_and_background.php:82
+msgid "Youtube video url"
+msgstr "YouTube ссылка на видео"
+
+#: extensions/customizer_fields/hero_layout_and_background.php:93
+msgid "Background video settings"
+msgstr "Настройки фонового видео"
+
+#: extensions/customizer_fields/hero_layout_and_background.php:98
+msgid "Add video controls"
+msgstr "Добавить элементы управления видео"
+
+#: extensions/customizer_fields/hero_layout_and_background.php:99
+msgid "Mute video by default"
+msgstr "Отключить звук видео по умолчанию"
+
+#: extensions/customizer_fields/hero_layout_and_background.php:100
+msgid "Play video automatically"
+msgstr "Проигрывать видео автоматически"
+
+#: extensions/customizer_fields/hero_layout_and_background.php:107
+msgid "Background video controls"
+msgstr "Элементы управления фоновым видео"
+
+#: extensions/customizer_fields/hero_layout_and_background.php:113
+#: extensions/customizer_fields/layout.php:109
+msgid "Left"
+msgstr "Слева"
+
+#: extensions/customizer_fields/hero_layout_and_background.php:114
+#: extensions/customizer_fields/layout.php:110
+msgid "Center"
+msgstr "По центру"
+
+#: extensions/customizer_fields/hero_layout_and_background.php:115
+#: extensions/customizer_fields/layout.php:111
+msgid "Right"
+msgstr "Справа"
+
+#: extensions/customizer_fields/hero_layout_and_background.php:122
+msgid "Overlay type"
+msgstr "Тип наложения"
+
+#: extensions/customizer_fields/hero_layout_and_background.php:128
+msgid "None"
+msgstr "Нет"
+
+#: extensions/customizer_fields/hero_layout_and_background.php:130
+msgid "Gradient"
+msgstr "Градиент"
+
+#: extensions/customizer_fields/hero_layout_and_background.php:137
+msgid "Overlay color"
+msgstr "Цвет наложения"
+
+#: extensions/customizer_fields/hero_layout_and_background.php:147
+msgid "Gradient css code"
+msgstr "CSS-код градиента"
+
+#: extensions/customizer_fields/hero_main_heading.php:5
+msgid "Main heading"
+msgstr "Главный заголовок"
+
+#: extensions/customizer_fields/hero_main_heading.php:13
+msgid "Hero main heading type"
+msgstr "Hero, тип главного заголовка"
+
+#: extensions/customizer_fields/hero_main_heading.php:19
+#: extensions/customizer_fields/hero_top.php:29
+#: extensions/customizer_fields/logotype.php:20
+msgid "Text"
+msgstr "Текст"
+
+#: extensions/customizer_fields/hero_main_heading.php:27
+msgid "Hero image"
+msgstr "Hero изображение"
+
+#: extensions/customizer_fields/hero_main_heading.php:37
+msgid "Hero image retina"
+msgstr "Hero изображение (для retina)"
+
+#: extensions/customizer_fields/hero_main_heading.php:47
+msgid "Hero heading text"
+msgstr "Hero, текст заголовка"
+
+#: extensions/customizer_fields/hero_main_heading.php:57
+msgid "Hero heading font"
+msgstr "Hero, шрифт заголовка"
+
+#: extensions/customizer_fields/hero_style_presets.php:30
+msgid "No contact forms found"
+msgstr "Контакт формы не найдены"
+
+#: extensions/customizer_fields/hero_style_presets.php:32
+msgid "No modals found"
+msgstr "Модальные окна не найдены"
+
+#: extensions/customizer_fields/hero_style_presets.php:36
+msgid "Style"
+msgstr "Стиль"
+
+#: extensions/customizer_fields/hero_style_presets.php:45
+msgid "Preset"
+msgstr "Предустановка"
+
+#: extensions/customizer_fields/hero_style_presets.php:46
+msgid "Select hero style preset"
+msgstr "Выберите стиль Hero"
+
+#: extensions/customizer_fields/hero_style_presets.php:52
+msgid "Style 1 (default)"
+msgstr "Стиль 1 (по-умолчанию)"
+
+#: extensions/customizer_fields/hero_style_presets.php:53
+msgid "Style 2"
+msgstr "Стиль 2"
+
+#: extensions/customizer_fields/hero_style_presets.php:54
+msgid "Style 3"
+msgstr "Стиль 3"
+
+#: extensions/customizer_fields/hero_style_presets.php:55
+msgid "Style 4"
+msgstr "Стиль 4"
+
+#: extensions/customizer_fields/hero_style_presets.php:62
+#: extensions/customizer_fields/hero_style_presets.php:388
+msgid "Hero buttons"
+msgstr "Hero кнопки"
+
+#: extensions/customizer_fields/hero_style_presets.php:68
+#: extensions/customizer_fields/hero_style_presets.php:394
+msgid "no buttons"
+msgstr "без кнопок"
+
+#: extensions/customizer_fields/hero_style_presets.php:69
+#: extensions/customizer_fields/hero_style_presets.php:395
+msgid "1 button"
+msgstr "1 кнопка"
+
+#: extensions/customizer_fields/hero_style_presets.php:70
+#: extensions/customizer_fields/hero_style_presets.php:396
+msgid "2 buttons"
+msgstr "2 кнопки"
+
+#: extensions/customizer_fields/hero_style_presets.php:77
+#: extensions/customizer_fields/hero_style_presets.php:403
+msgid "Hero main button text"
+msgstr "Hero, текст главной кнопки"
+
+#: extensions/customizer_fields/hero_style_presets.php:87
+#: extensions/customizer_fields/hero_style_presets.php:413
+msgid "Hero main button action"
+msgstr "Hero, действие главной кнопки"
+
+#: extensions/customizer_fields/hero_style_presets.php:93
+#: extensions/customizer_fields/hero_style_presets.php:138
+#: extensions/customizer_fields/hero_style_presets.php:335
+#: extensions/customizer_fields/hero_style_presets.php:343
+#: extensions/customizer_fields/hero_style_presets.php:419
+#: extensions/customizer_fields/hero_style_presets.php:464
+msgid "External link"
+msgstr "Внешняя ссылка"
+
+#: extensions/customizer_fields/hero_style_presets.php:94
+#: extensions/customizer_fields/hero_style_presets.php:139
+#: extensions/customizer_fields/hero_style_presets.php:336
+#: extensions/customizer_fields/hero_style_presets.php:353
+#: extensions/customizer_fields/hero_style_presets.php:420
+#: extensions/customizer_fields/hero_style_presets.php:465
+msgid "Popup box"
+msgstr "Всплывающее окно"
+
+#: extensions/customizer_fields/hero_style_presets.php:101
+#: extensions/customizer_fields/hero_style_presets.php:427
+msgid "Main button external link"
+msgstr "Главная кнопка, внешняя ссылка"
+
+#: extensions/customizer_fields/hero_style_presets.php:111
+#: extensions/customizer_fields/hero_style_presets.php:437
+msgid "Main button popup box"
+msgstr "Главная кнопка, всплывающее окно"
+
+#: extensions/customizer_fields/hero_style_presets.php:122
+#: extensions/customizer_fields/hero_style_presets.php:448
+msgid "Hero button ALT text"
+msgstr "Hero, текст альтернативной кнопки"
+
+#: extensions/customizer_fields/hero_style_presets.php:127
+msgid "Get tickets"
+msgstr "Приобрести билеты"
+
+#: extensions/customizer_fields/hero_style_presets.php:132
+#: extensions/customizer_fields/hero_style_presets.php:458
+msgid "Hero alt button action"
+msgstr "Hero, действие альтернативной кнопки"
+
+#: extensions/customizer_fields/hero_style_presets.php:146
+#: extensions/customizer_fields/hero_style_presets.php:472
+msgid "ALT button external link"
+msgstr "Альтернативная кнопка, внешняя ссылка"
+
+#: extensions/customizer_fields/hero_style_presets.php:156
+#: extensions/customizer_fields/hero_style_presets.php:482
+msgid "ALT button popup box"
+msgstr "Альтернативная кнопка, всплывающее окно"
+
+#: extensions/customizer_fields/hero_style_presets.php:169
+#: extensions/customizer_fields/hero_style_presets.php:275
+msgid "Form"
+msgstr "Форма"
+
+#: extensions/customizer_fields/hero_style_presets.php:170
+#: extensions/customizer_fields/hero_style_presets.php:276
+msgid "Select form to use"
+msgstr "Выберите форму для использования"
+
+#: extensions/customizer_fields/hero_style_presets.php:181
+msgid "Enable form title?"
+msgstr "Включить заголовок формы?"
+
+#: extensions/customizer_fields/hero_style_presets.php:191
+msgid "Use contact form 7 title as the form title"
+msgstr "Использовать заголовок contact form 7 в качестве заголовка формы"
+
+#: extensions/customizer_fields/hero_style_presets.php:201
+msgid "Form header text"
+msgstr "Текст заголовка формы"
+
+#: extensions/customizer_fields/hero_style_presets.php:206
+#: extensions/hero/style-2.class.php:105
+msgid "Event Registration"
+msgstr "Регистрация на мероприятие"
+
+#: extensions/customizer_fields/hero_style_presets.php:212
+#: extensions/customizer_fields/typography.php:17
+msgid "Header font"
+msgstr "Шрифт заголовка"
+
+#: extensions/customizer_fields/hero_style_presets.php:237
+msgid "Form header color"
+msgstr "Цвет заголовка формы"
+
+#: extensions/customizer_fields/hero_style_presets.php:249
+msgid "Form label color"
+msgstr "Цвет подписи к полю формы"
+
+#: extensions/customizer_fields/hero_style_presets.php:261
+msgid "Form background"
+msgstr "Фон формы"
+
+#: extensions/customizer_fields/hero_style_presets.php:288
+msgid "Form width"
+msgstr "Ширина формы"
+
+#: extensions/customizer_fields/hero_style_presets.php:303
+msgid "Form offset"
+msgstr "Отступ формы"
+
+#: extensions/customizer_fields/hero_style_presets.php:319
+msgid "Hero left image"
+msgstr "Hero, левая картинка"
+
+#: extensions/customizer_fields/hero_style_presets.php:329
+msgid "Hero left image action"
+msgstr "Hero, левая картинка - действие"
+
+#: extensions/customizer_fields/hero_style_presets.php:364
+msgid "Show icon on top of image"
+msgstr "Показывать иконку поверх картинки"
+
+#: extensions/customizer_fields/hero_style_presets.php:370
+msgid "On"
+msgstr "Включить"
+
+#: extensions/customizer_fields/hero_style_presets.php:371
+msgid "Off"
+msgstr "Выключить"
+
+#: extensions/customizer_fields/hero_style_presets.php:378
+msgid "Icon image"
+msgstr "Изображение иконки"
+
+#: extensions/customizer_fields/hero_top.php:5
+msgid "Countdown"
+msgstr "Обратный отсчёт"
+
+#: extensions/customizer_fields/hero_top.php:13
+msgid "Top text and socials"
+msgstr "Верхний текст и социальные ссылки"
+
+#: extensions/customizer_fields/hero_top.php:21
+msgid "Hero top line type"
+msgstr "Hero, тип верхней строки"
+
+#: extensions/customizer_fields/hero_top.php:27
+msgid "Disable"
+msgstr "Отключить"
+
+#: extensions/customizer_fields/hero_top.php:28
+msgid "Social"
+msgstr "Социальные ссылки"
+
+#: extensions/customizer_fields/hero_top.php:37
+msgid "Hero social links"
+msgstr "Hero, социальные ссылки"
+
+#: extensions/customizer_fields/hero_top.php:65
+msgid "Hero top line text"
+msgstr "Hero, верхняя строка текста"
+
+#: extensions/customizer_fields/hero_upper_and_bottom.php:5
+msgid "Upper and Bottom subheadings"
+msgstr "Верхние и нижние подзаголовки"
+
+#: extensions/customizer_fields/hero_upper_and_bottom.php:13
+msgid "Hero upper text city"
+msgstr "Hero, верхний текст - город"
+
+#: extensions/customizer_fields/hero_upper_and_bottom.php:23
+msgid "Hero upper text location"
+msgstr "Hero, верхний текст - место проведения"
+
+#: extensions/customizer_fields/hero_upper_and_bottom.php:33
+msgid "Hero upper font"
+msgstr "Hero, верхний текст - шрифт"
+
+#: extensions/customizer_fields/hero_upper_and_bottom.php:59
+msgid "Hero lower text"
+msgstr "Hero, нижний текст"
+
+#: extensions/customizer_fields/hero_upper_and_bottom.php:73
+msgid "Hero lower font"
+msgstr "Hero, нижний текст - шрифт"
+
+#: extensions/customizer_fields/layout.php:6
+msgid "Site layout"
+msgstr "Компоновка сайта"
+
+#: extensions/customizer_fields/layout.php:7
+msgid "Site layout settings"
+msgstr "Настройка компоновки сайта"
+
+#: extensions/customizer_fields/layout.php:15
+msgid "Boxed layout"
+msgstr "Коробочная компоновка"
+
+#: extensions/customizer_fields/layout.php:30
+msgid "Background color for boxed layout"
+msgstr "Цвет фона для коробочной компоновки"
+
+#: extensions/customizer_fields/layout.php:42
+msgid "Background image"
+msgstr "Фоновое изображение"
+
+#: extensions/customizer_fields/layout.php:43
+msgid "Background image for boxed layout"
+msgstr "Фоновое изображение для коробочной компоновки"
+
+#: extensions/customizer_fields/layout.php:56
+msgid "Use fixed background"
+msgstr "Использовать фиксированный фон"
+
+#: extensions/customizer_fields/layout.php:68
+msgid "Background size"
+msgstr "Размер фона"
+
+#: extensions/customizer_fields/layout.php:74
+msgid "Auto"
+msgstr "Авто"
+
+#: extensions/customizer_fields/layout.php:75
+msgid "Cover"
+msgstr "Заполнить"
+
+#: extensions/customizer_fields/layout.php:76
+msgid "Contain"
+msgstr "Замостить"
+
+#: extensions/customizer_fields/layout.php:85
+msgid "Background repeat"
+msgstr "Повтор фона"
+
+#: extensions/customizer_fields/layout.php:91
+msgid "No repeat"
+msgstr "Не повторять"
+
+#: extensions/customizer_fields/layout.php:92
+msgid "Repeat"
+msgstr "Повторять"
+
+#: extensions/customizer_fields/layout.php:93
+msgid "Repeat X"
+msgstr "Повторять по оси X"
+
+#: extensions/customizer_fields/layout.php:94
+msgid "Repeat Y"
+msgstr "Повторять по оси Y"
+
+#: extensions/customizer_fields/layout.php:103
+msgid "Background position"
+msgstr "Позиция фона"
+
+#: extensions/customizer_fields/layout.php:121
+msgid "Content width"
+msgstr "Ширина содержимого"
+
+#: extensions/customizer_fields/layout.php:137
+msgid "Gutter width"
+msgstr "Ширина разделителя"
+
+#: extensions/customizer_fields/layout.php:153
+#: extensions/customizer_fields/mobile.php:15
+#: extensions/customizer_fields/mobile.php:71
+msgid "Row height"
+msgstr "Высота столбца"
+
+#: extensions/customizer_fields/logotype.php:5
+msgid "Logotype"
+msgstr "Логотип"
+
+#: extensions/customizer_fields/logotype.php:6
+msgid "Site logo"
+msgstr "Логотип сайта"
+
+#: extensions/customizer_fields/logotype.php:14
+msgid "Logo type"
+msgstr "Тип логотипа"
+
+#: extensions/customizer_fields/logotype.php:27
+msgid "Logo image"
+msgstr "Картинка логотипа"
+
+#: extensions/customizer_fields/logotype.php:28
+msgid "Standart logo image"
+msgstr "Стандартная картинка логотипа"
+
+#: extensions/customizer_fields/logotype.php:37
+#: extensions/customizer_fields/logotype.php:38
+msgid "Retina logo image"
+msgstr "Картинка логотипа для Retina"
+
+#: extensions/customizer_fields/logotype.php:49
+msgid "Logo text"
+msgstr "Текст логотипа"
+
+#. #-#-#-#-#  ventcamp-wordpress-theme.pot (VentCamp 1.4)  #-#-#-#-#
+#. Theme Name of the plugin/theme
+#: extensions/customizer_fields/logotype.php:51
+msgid "VentCamp"
+msgstr "VentCamp"
+
+#: extensions/customizer_fields/logotype.php:60
+msgid "Logo typography"
+msgstr "Типографика логотипа"
+
+#: extensions/customizer_fields/logotype.php:84
+msgid "Logotype color"
+msgstr "Цвет логотипа"
+
+#: extensions/customizer_fields/menu_bar.php:5
+msgid "Main menu"
+msgstr "Главное меню"
+
+#: extensions/customizer_fields/menu_bar.php:13
+msgid "Menu template"
+msgstr "Шаблон меню"
+
+#: extensions/customizer_fields/menu_bar.php:19
+msgid "Menu and button"
+msgstr "Меню и кнопка"
+
+#: extensions/customizer_fields/menu_bar.php:20
+msgid "Logo and menu"
+msgstr "Логотип и меню"
+
+#: extensions/customizer_fields/menu_bar.php:21
+msgid "Logo, menu and button"
+msgstr "Логотип, меню и кнопка"
+
+#: extensions/customizer_fields/menu_bar.php:27
+msgid "Button text"
+msgstr "Текст кнопки"
+
+#: extensions/customizer_fields/menu_bar.php:31
+msgid "Buy Tickets"
+msgstr "Купить билеты"
+
+#: extensions/customizer_fields/menu_bar.php:37
+msgid "Button link"
+msgstr "Ссылка кнопки"
+
+#: extensions/customizer_fields/menu_bar.php:47
+msgid "Menu position"
+msgstr "Позиция меню"
+
+#: extensions/customizer_fields/menu_bar.php:53
+msgid "Before hero block"
+msgstr "Перед hero-блоком"
+
+#: extensions/customizer_fields/menu_bar.php:54
+msgid "After hero block"
+msgstr "После hero-блока"
+
+#: extensions/customizer_fields/menu_bar.php:61
+msgid "Disable fixed/sticky menu"
+msgstr "Отключить прилипающее меню"
+
+#: extensions/customizer_fields/menu_bar.php:88
+msgid "Menu/logo height"
+msgstr "Высота меню/логотипа"
+
+#: extensions/customizer_fields/menu_bar.php:114
+msgid "Active link color"
+msgstr "Цвет активной ссылки"
+
+#: extensions/customizer_fields/menu_bar.php:136
+msgid "Add smooth scroll to all anchor links on page?"
+msgstr "Добавить плавную прокрутку всем якорным ссылкам на странице?"
+
+#: extensions/customizer_fields/menu_bar.php:146
+msgid "Enable One page navigation changing hash in url?"
+msgstr "Включить одностраничную навигацию с изменением #хеша в URL?"
+
+#: extensions/customizer_fields/menu_bar.php:157
+msgid "Dropdown menu"
+msgstr "Выпадающее меню"
+
+#: extensions/customizer_fields/menu_bar.php:165
+msgid "Dropdown menu background color"
+msgstr "Цвет фона выпадающего меню"
+
+#: extensions/customizer_fields/menu_bar.php:177
+msgid "Dropdown menu text color"
+msgstr "Цвет текста выпадающего меню"
+
+#: extensions/customizer_fields/mobile.php:6
+#: extensions/customizer_fields/mobile.php:226
+msgid "Phone"
+msgstr "Телефон"
+
+#: extensions/customizer_fields/mobile.php:31
+#: extensions/customizer_fields/mobile.php:87
+msgid "Body text"
+msgstr "Основной текст"
+
+#: extensions/customizer_fields/mobile.php:47
+#: extensions/customizer_fields/mobile.php:103
+msgid "Header text"
+msgstr "Текст заголовка"
+
+#: extensions/customizer_fields/mobile.php:62
+#: extensions/customizer_fields/mobile.php:204
+msgid "Tablet"
+msgstr "Планшет"
+
+#: extensions/customizer_fields/mobile.php:117
+msgid "Mobile menu"
+msgstr "Мобильное меню"
+
+#: extensions/customizer_fields/mobile.php:127
+msgid "Hide logo"
+msgstr "Скрыть логотип"
+
+#: extensions/customizer_fields/mobile.php:162
+msgid "+ Custom code"
+msgstr "+ Произвольный код"
+
+#: extensions/customizer_fields/mobile.php:167
+msgid "Global"
+msgstr "Глобальный"
+
+#: extensions/customizer_fields/mobile.php:175
+#: extensions/customizer_fields/mobile.php:212
+#: extensions/customizer_fields/mobile.php:234
+msgid "CSS"
+msgstr "CSS"
+
+#: extensions/customizer_fields/mobile.php:190
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: extensions/customizer_fields/typography.php:6
+msgid "Typography"
+msgstr "Типографика"
+
+#: extensions/customizer_fields/typography.php:7
+msgid "Typography settings"
+msgstr "Настройки типографики"
+
+#: extensions/customizer_fields/typography.php:42
+msgid "Body font"
+msgstr "Основной шрифт"
+
+#: extensions/customizer_fields/typography.php:66
+msgid "Menu font"
+msgstr "Шрифт меню"
+
+#: extensions/customizer_fields/typography.php:93
+msgid "Subsets"
+msgstr "Подмножества"
+
+#: extensions/customizer_fields/typography.php:94
+msgid "Font subsets for sitewide usage"
+msgstr "Подмножества шрифта для использования на всем сайте."
+
+#: extensions/discussion-extensions.php:25
+msgid "%1$s @ %2$s"
+msgstr "%1$s @ %2$s"
+
+#: extensions/discussion-extensions.php:26
+#: woocommerce/myaccount/my-address.php:51
+msgid "Edit"
+msgstr "Редактировать"
+
+#: extensions/discussion-extensions.php:31
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки."
+
+#: extensions/footer-extensions.php:75
+msgid "All rights reserved 2016"
+msgstr "Все права защищены 2016"
+
+#: extensions/header-extensions.php:126
+msgid "Add a menu"
+msgstr "Добавить меню"
+
+#: extensions/modals-menu.php:19
+msgctxt "Post Type General Name"
+msgid "Modals"
+msgstr "Модальные окна"
+
+#: extensions/modals-menu.php:20
+msgctxt "Post Type Singular Name"
+msgid "Modals"
+msgstr "Модальное окно"
+
+#: extensions/modals-menu.php:21
+msgid "Vivaco Modals"
+msgstr "Vivaco модальные окна"
+
+#: extensions/modals-menu.php:22
+msgid "Parent Modal"
+msgstr "Родительское модальное окно"
+
+#: extensions/modals-menu.php:23
+msgid "All Modals"
+msgstr "Все модальные окна"
+
+#: extensions/modals-menu.php:24
+msgid "View Modal"
+msgstr "Посмотреть модальное окно"
+
+#: extensions/modals-menu.php:25
+msgid "Add New Modal"
+msgstr "Добавить новое модальное окно"
+
+#: extensions/modals-menu.php:26
+msgid "Add New"
+msgstr "Добавить новое"
+
+#: extensions/modals-menu.php:27
+msgid "Edit Modal"
+msgstr "Редактировать модальное окно"
+
+#: extensions/modals-menu.php:28
+msgid "Update Modal"
+msgstr "Обновить модальное окно"
+
+#: extensions/modals-menu.php:29
+msgid "Search Modals"
+msgstr "Искать модальное окно"
+
+#: extensions/modals-menu.php:30
+msgid "Not Found"
+msgstr "Не найдено"
+
+#: extensions/modals-menu.php:31
+msgid "Not found in Trash"
+msgstr "Не найдено в удаленных"
+
+#: extensions/modals-menu.php:35 extensions/modals-menu.php:36
+msgid "Modals"
+msgstr "Модальные окна"
+
+#: extensions/modals-settings.php:67
+msgid "General"
+msgstr "Общие"
+
+#: extensions/modals-settings.php:218
+msgid "Design"
+msgstr "Дизайн"
+
+#: extensions/modals-settings.php:252
+msgid "Custom Modal Box Size"
+msgstr "Произвольный размер модального окна"
+
+#: extensions/modals-settings.php:253
+msgid "Set custom size in pixels for Width x Height e.g.:\"250x250\""
+msgstr ""
+"Установить произвольный размер в пикселях для ширины и высоты, т.е.:"
+"\"250x250\""
+
+#: extensions/modals-settings.php:291
+msgid "Modal Background Type"
+msgstr "Тип фона модального окна"
+
+#: extensions/modals-settings.php:307
+msgid "Modal Background Color"
+msgstr "Фоновый цвет модального окна"
+
+#: extensions/modals-settings.php:324
+msgid "Modal Background Image"
+msgstr "Изображение фона модального окна"
+
+#: extensions/modals-settings.php:356
+msgid "Overlay Color"
+msgstr "Цвет наложения"
+
+#: extensions/modals-settings.php:373
+msgid "Overlay Color Opacity"
+msgstr "Прозрачность цвета наложения"
+
+#: extensions/modals-settings.php:391
+msgid "Overlay Image"
+msgstr "Изображение наложения"
+
+#: extensions/modals-settings.php:408
+msgid "Start Animation Type"
+msgstr "Тип начальной анимации"
+
+#: extensions/modals-settings.php:418
+msgid "Animation Speed (ms)"
+msgstr "Скорость анимации (мс)"
+
+#: extensions/modals-settings.php:428
+msgid "Extra"
+msgstr "Экстра"
+
+#: extensions/modals-settings.php:446
+msgid "Disable Page Scroll"
+msgstr "Отключить прокрутку страницы"
+
+#: extensions/modals-settings.php:458
+msgid "Hide On Desktop"
+msgstr "Скрыть на десктопе"
+
+#: extensions/modals-settings.php:469
+msgid "Hide On Tablets"
+msgstr "Скрыть на планшетах"
+
+#: extensions/modals-settings.php:480
+msgid "Hide On Phones"
+msgstr "Скрыть на телефонах"
+
+#: extensions/modals-settings.php:493
+msgid "Cookies"
+msgstr "Cookies"
+
+#: extensions/modals-settings.php:512
+msgid "Cookie Trigger"
+msgstr "Cookie триггер"
+
+#: extensions/modals-settings.php:527
+msgid "Cookie Time"
+msgstr "Cookie время"
+
+#: extensions/modals-settings.php:545
+msgid "Cookie Value"
+msgstr "Значение cookie"
+
+#: extensions/plugin-activation.php:126
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "Установка требуемых плагинов"
+
+#: extensions/plugin-activation.php:127
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr "Установить плагины"
+
+#. translators: %s: plugin name.
+#: extensions/plugin-activation.php:128
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:337
+msgid "Installing Plugin: %s"
+msgstr "Установка плагина: %s"
+
+#: extensions/plugin-activation.php:129
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "Что-то пошло не так с API плагина."
+
+#: extensions/plugin-activation.php:130
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Эта тема требует следующий плагин: %1$s."
+msgstr[1] "Эта тема требует следующие плагины: %1$s."
+msgstr[2] "Эта тема требует следующие плагины: %1$s."
+
+#: extensions/plugin-activation.php:131
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Эта тема рекомендует следующий плагин: %1$s."
+msgstr[1] "Эта тема рекомендует следующие плагины: %1$s."
+msgstr[2] "Эта тема рекомендует следующие плагины: %1$s."
+
+#: extensions/plugin-activation.php:132
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+"Простите, но у вас нет необходимых разрешений для установки плагина %s. "
+"Свяжитесь с администратором сайта, чтобы получить помощь в установке плагина."
+msgstr[1] ""
+"Простите, но у вас нет необходимых разрешений для установки плагинов %s. "
+"Свяжитесь с администратором сайта, чтобы получить помощь в установке "
+"плагинов."
+msgstr[2] ""
+"Простите, но у вас нет необходимых разрешений для установки плагинов %s. "
+"Свяжитесь с администратором сайта, чтобы получить помощь в установке "
+"плагинов."
+
+#: extensions/plugin-activation.php:133
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Следующий обязательный плагин в данный момент неактивен: %1$s."
+msgstr[1] "Следующие требуемые плагины в данный момент неактивны: %1$s."
+msgstr[2] "Следующие требуемые плагины в данный момент неактивны: %1$s."
+
+#: extensions/plugin-activation.php:134
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Следующий рекомендуемый плагин в данный момент неактивен: %1$s."
+msgstr[1] "Следующие рекомендуемые плагины в данный момент неактивны: %1$s."
+msgstr[2] "Следующие рекомендуемые плагины в данный момент неактивны: %1$s."
+
+#: extensions/plugin-activation.php:135
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+"Простите, но у вас нет необходимых прав для активации плагина %s. Свяжитесь "
+"с администратором сайта, чтобы он помог активировать плагин."
+msgstr[1] ""
+"Простите, но у вас нет необходимых прав для активации плагинов %s. Свяжитесь "
+"с администратором сайта, чтобы он помог активировать плагины."
+msgstr[2] ""
+"Простите, но у вас нет необходимых прав для активации плагинов %s. Свяжитесь "
+"с администратором сайта, чтобы он помог активировать плагины."
+
+#: extensions/plugin-activation.php:136
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"Следующий плагин должен быть обновлен до последней версии, чтобы "
+"максимизировать совместимость с темой: %1$s."
+msgstr[1] ""
+"Следующие плагины должны быть обновлены до последней версии, чтобы "
+"максимизировать совместимость с темой: %1$s."
+msgstr[2] ""
+"Следующие плагины должны быть обновлены до последней версии, чтобы "
+"максимизировать совместимость с темой: %1$s."
+
+#: extensions/plugin-activation.php:137
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+"Простите, но у вас нет необходимых прав для обновления плагина %s. Свяжитесь "
+"с администратором сайта, чтобы он помог обновить плагин."
+msgstr[1] ""
+"Простите, но у вас нет необходимых прав для обновления плагинов %s. "
+"Свяжитесь с администратором сайта, чтобы он помог обновить плагины."
+msgstr[2] ""
+"Простите, но у вас нет необходимых прав для обновления плагинов %s. "
+"Свяжитесь с администратором сайта, чтобы он помог обновить плагины."
+
+#. translators: 1: plugin name(s).
+#: extensions/plugin-activation.php:138
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Начало установки плагина"
+msgstr[1] "Начало установки плагинов"
+msgstr[2] "Начало установки плагинов"
+
+#: extensions/plugin-activation.php:139
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Начало активации плагина"
+msgstr[1] "Начало активации плагинов"
+msgstr[2] "Начало активации плагинов"
+
+#: extensions/plugin-activation.php:140
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "Вернутся в установщик требуемых плагинов"
+
+#: extensions/plugin-activation.php:141
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:394
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr "Плагин успешно активирован."
+
+#: extensions/plugin-activation.php:142
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Все плагины установлены и активированы успешно. %s"
+
+#: extensions/woocommerce.class.php:94
+msgid "Ticket"
+msgstr "Билет"
+
+#: functions.php:74
+msgid "Primary Menu"
+msgstr "Главное меню"
+
+#: functions.php:75
+msgid "Footer Menu"
+msgstr "Меню подвала"
+
+#: functions.php:175
+msgid "&larr;"
+msgstr "&larr;"
+
+#: functions.php:176
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#. translators: %s: plugin name.
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:339
+msgid "Updating Plugin: %s"
+msgstr "Обновляю плагин: %s"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Начало обновления плагина"
+msgstr[1] "Начало обновления плагинов"
+msgstr[2] "Начало обновления плагинов"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:393
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:912
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2618
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr "Вернутся в панель управления"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:395
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgstr "Следующий плагин был успешно активирован:"
+
+#. translators: 1: plugin name.
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:397
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Никаких действий не принято. Плагин %1$s был уже активирован."
+
+#. translators: 1: plugin name.
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:399
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Плагин не активирован. Требуется более старшая версия %s для этой темы. "
+"Пожалуйста обновите плагин."
+
+#. translators: 1: dashboard link.
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:401
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Все плагины успешно установлены и активированы. %1$s"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "Убрать это сообщение"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Есть один или несколько требуемых или рекомендуемых плагинов для установки, "
+"обновления или активации."
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "Пожалуйста свяжитесь с администратором сайта для получения помощи."
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Этот плагин должен быть обновлен для совместимости с вашей темой."
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "Требуется обновление"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Пакет удаленного плагина не содержит папку с желаемым именем и переименовать "
+"не удалось."
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1019
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Пожалуйста, свяжитесь с поставщиком плагина и попросите его упаковать плагин "
+"в соответствии с рекомендациями WordPress."
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Пакет удаленного плагина содержит больше одного файла, но файлы не упакованы "
+"в папку."
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1206
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "и"
+
+#. translators: %s: version number
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2067
+msgid "TGMPA v%s"
+msgstr "TGMPA версия %s"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr "Требуемый"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr "Рекомендованный"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr "Репозиторий WordPress"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr "Внешний источник"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr "Идёт вместе с темой"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr "Не установлено"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr "Установлен, но не активирован"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr "Активный"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr "Требуемое обновление недоступно"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr "Требует обновления"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr "Обновление рекомендуется"
+
+#. translators: 1: install status, 2: update status
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2427
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: 1: number of plugins.
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2473
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Все <span class=\"count\">(%s)</span>"
+msgstr[1] "Все <span class=\"count\">(%s)</span>"
+msgstr[2] "Все <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2477
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Для установки <span class=\"count\">(%s)</span>"
+msgstr[1] "Для установки <span class=\"count\">(%s)</span>"
+msgstr[2] "Для установки <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2481
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Обновление доступно <span class=\"count\">(%s)</span>"
+msgstr[1] "Обновления доступны <span class=\"count\">(%s)</span>"
+msgstr[2] "Обновления доступны <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2485
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Для активации <span class=\"count\">(%s)</span>"
+msgstr[1] "Для активации <span class=\"count\">(%s)</span>"
+msgstr[2] "Для активации <span class=\"count\">(%s)</span>"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "неизвестно"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr "Установленная версия:"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr "Минимальная требуемая версия:"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr "Доступная версия:"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr "Нет плагинов для установки, обновления или активации."
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr "Плагин"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr "Источник"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr "Тип"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr "Версия"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2639
+#: woocommerce/myaccount/my-orders.php:15
+msgid "Status"
+msgstr "Статус"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2688
+msgid "Install %2$s"
+msgstr "Установить %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2693
+msgid "Update %2$s"
+msgstr "Обновить %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2699
+msgid "Activate %2$s"
+msgstr "Активировать %2$s"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr "Сообщение об обновлении от автора плагина:"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr "Установить"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr "Обновить"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr "Активировать"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Нет выбранных плагинов для установки. Никаких действий не принято."
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Нет выбранных плагинов для обновления. Никаких действий не принято."
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr "Нет доступных плагинов для установки на данный момент."
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr "Нет доступных плагинов для обновления на данный момент."
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Нет выбранных плагинов для активации. Никаких действий не принято."
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr "Нет доступных плагинов для активации на данный момент."
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr "Не удалось активировать плагин."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3583
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Обновление плагина %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3586
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Произошла ошибка во время установки %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name.
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3588
+msgid "The installation of %1$s failed."
+msgstr "Установка %1$s провалилась."
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Процесс установки и активации начался. Этот процесс может занять некоторое "
+"время, поэтому, пожалуйста, будьте терпеливы."
+
+#. translators: 1: plugin name.
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3594
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s установлен и успешно активирован."
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3594
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr "Показать детали"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3594
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr "Скрыть детали"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr "Все установки и активации были завершены."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3597
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка и активация плагина %1$s (%2$d/%3$d)"
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Процесс установки начался. Этот процесс может занять некоторое время, "
+"поэтому, пожалуйста, будьте терпеливы."
+
+#. translators: 1: plugin name.
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3602
+msgid "%1$s installed successfully."
+msgstr "%1$s установлен успешно."
+
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr "Все установки завершены."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: includes/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3605
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Устанавливаю плагин %1$s (%2$d/%3$d)"
+
+#: includes/ventcamp_event.php:5 includes/ventcamp_event.php:19
+msgid "Event options"
+msgstr "Настройки мероприятия"
+
+#: includes/ventcamp_event.php:6
+msgid "Event schedules"
+msgstr "Расписание мероприятия"
+
+#: includes/ventcamp_event.php:23
+msgid "Event type"
+msgstr "Тип мероприятия"
+
+#: includes/ventcamp_event.php:26
+msgid "Choose your event type"
+msgstr "Выберите тип вашего мероприятия"
+
+#: includes/ventcamp_event.php:35 includes/ventcamp_event.php:47
+msgid "Single day schedule"
+msgstr "Расписание одного дня"
+
+#: includes/ventcamp_event.php:37
+msgid "Multi days schedule"
+msgstr "Многодневное расписание"
+
+#: includes/ventcamp_event.php:38
+msgid "Multi days & venues schedule"
+msgstr "Многодневное расписание на различных площадках"
+
+#: includes/ventcamp_event.php:70 includes/ventcamp_event.php:246
+#: includes/ventcamp_event.php:489
+msgid "Add a day"
+msgstr "Добавить день"
+
+#: includes/ventcamp_event.php:74 includes/ventcamp_event.php:271
+#: includes/ventcamp_event.php:514 woocommerce/myaccount/my-orders.php:14
+msgid "Date"
+msgstr "Дата"
+
+#: includes/ventcamp_event.php:95 includes/ventcamp_event.php:535
+msgid "Thread schedule"
+msgstr "Расписание лекций / презентаций"
+
+#: includes/ventcamp_event.php:110 includes/ventcamp_event.php:347
+#: includes/ventcamp_event.php:550
+msgid "Add"
+msgstr "Добавить"
+
+#: includes/ventcamp_event.php:114 includes/ventcamp_event.php:250
+#: includes/ventcamp_event.php:351 includes/ventcamp_event.php:493
+#: includes/ventcamp_event.php:554
+msgid "Title"
+msgstr "Название"
+
+#: includes/ventcamp_event.php:117 includes/ventcamp_event.php:354
+#: includes/ventcamp_event.php:557
+msgid "Lecture title"
+msgstr "Название лекции"
+
+#: includes/ventcamp_event.php:135
+msgid "Location"
+msgstr "Место проведения"
+
+#: includes/ventcamp_event.php:156 includes/ventcamp_event.php:372
+#: includes/ventcamp_event.php:575
+msgid "Time"
+msgstr "Время"
+
+#: includes/ventcamp_event.php:177 includes/ventcamp_event.php:393
+#: includes/ventcamp_event.php:596
+msgid "Description"
+msgstr "Описание"
+
+#: includes/ventcamp_event.php:198
+msgid "Extra Info"
+msgstr "Дополнительная информация"
+
+#: includes/ventcamp_event.php:223
+msgid "Schedule with threads/auditoriums"
+msgstr "Расписание на различных площадках (в разных аудиториях)"
+
+#: includes/ventcamp_event.php:292
+msgid "Threads"
+msgstr "Места проведения выступлений"
+
+#: includes/ventcamp_event.php:307
+msgid "Add thread"
+msgstr "Добавить площадку выступлений"
+
+#: includes/ventcamp_event.php:311
+msgid "Thread title"
+msgstr "Название площадки выступлений (аудитории)"
+
+#: includes/ventcamp_event.php:332
+msgid "Thread Schedule"
+msgstr "Расписание лекций"
+
+#: includes/ventcamp_event.php:414 includes/ventcamp_event.php:617
+msgid "Lecturer"
+msgstr "Лектор"
+
+#: includes/ventcamp_event.php:435 includes/ventcamp_event.php:638
+msgid "Icon"
+msgstr "Иконка"
+
+#: includes/ventcamp_event.php:466
+msgid "Schedule without threads/auditoriums"
+msgstr "Расписание на одной площадке (в одной аудитории)"
+
+#: includes/ventcamp_template_tags.php:25
+msgctxt "post date"
+msgid " %s"
+msgstr "%s"
+
+#: includes/ventcamp_template_tags.php:32
+msgctxt "post author"
+msgid "by %s"
+msgstr "%s"
+
+#: includes/ventcamp_template_tags.php:38
+msgid "Comments"
+msgstr "Комментарии"
+
+#. translators: used between list items, there is a space after the comma
+#: includes/ventcamp_template_tags.php:51
+#: includes/ventcamp_template_tags.php:54
+#: includes/ventcamp_template_tags.php:75
+#: includes/ventcamp_template_tags.php:81
+msgid ", "
+msgstr ", "
+
+#: includes/ventcamp_template_tags.php:58
+msgid "Tagged under: "
+msgstr "Метки записи: "
+
+#: includes/ventcamp_template_tags.php:77
+msgid "Posted in %1$s"
+msgstr "Опубликовано в %1$s"
+
+#: includes/ventcamp_template_tags.php:83
+msgid "Tagged %1$s"
+msgstr "Помечен %1$s"
+
+#: includes/ventcamp_template_tags.php:89
+msgid "Leave a comment"
+msgstr "Оставить комментарий"
+
+#: includes/ventcamp_template_tags.php:89
+msgid "1 Comment"
+msgstr "1 Комментарий"
+
+#: includes/ventcamp_template_tags.php:89
+msgid "% Comments"
+msgstr "% Комментариев"
+
+#. translators: %s: Name of current post
+#: includes/ventcamp_template_tags.php:96
+msgid "Edit %s"
+msgstr "Редактировать %s"
+
+#: includes/ventcamp_widgets.php:14
+msgid "Main Sidebar"
+msgstr "Главная боковая панель"
+
+#: includes/ventcamp_widgets.php:26
+msgid "Footer Widget 1"
+msgstr "1-ый виджет в подвале"
+
+#: includes/ventcamp_widgets.php:35
+msgid "Footer Widget 2"
+msgstr "2-ой виджет в подвале"
+
+#: includes/ventcamp_widgets.php:45
+msgid "Footer Widget 3"
+msgstr "3-ий виджет в подвале"
+
+#: includes/ventcamp_widgets.php:56
+msgid "Footer Widget 4"
+msgstr "4-ый виджет в подвале"
+
+#: includes/widgets/ventcamp_widget_About.php:6
+msgid "About widget."
+msgstr "Виджет о сайте"
+
+#: includes/widgets/ventcamp_widget_About.php:7
+msgctxt "About widget"
+msgid "Ventcamp About"
+msgstr "Ventcamp о сайте"
+
+#: includes/widgets/ventcamp_widget_About.php:43
+#: includes/widgets/ventcamp_widget_Recent_Comments.php:142
+#: includes/widgets/ventcamp_widget_Recent_Posts.php:127
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: includes/widgets/ventcamp_widget_About.php:44
+msgid "Title Highlight:"
+msgstr "Подсвеченный заголовок"
+
+#: includes/widgets/ventcamp_widget_Recent_Comments.php:12
+msgid "Your site&#8217;s most recent comments."
+msgstr "Последние комментарии на вашем сайте."
+
+#: includes/widgets/ventcamp_widget_Recent_Comments.php:13
+msgid "Ventcamp Recent Comments"
+msgstr "Ventcamp последние комментарии"
+
+#: includes/widgets/ventcamp_widget_Recent_Comments.php:59
+msgid "Recent Comments"
+msgstr "Последние комментарии"
+
+#. translators: comments widget: 1: comment author, 2: post link
+#: includes/widgets/ventcamp_widget_Recent_Comments.php:98
+msgctxt "widgets"
+msgid "%1$s on %2$s"
+msgstr "%1$s в %2$s"
+
+#: includes/widgets/ventcamp_widget_Recent_Comments.php:145
+msgid "Number of comments to show:"
+msgstr "Количество комментариев для показа:"
+
+#: includes/widgets/ventcamp_widget_Recent_Posts.php:11
+msgid "Your site&#8217;s most recent Posts."
+msgstr "Последние записи вашего сайта."
+
+#: includes/widgets/ventcamp_widget_Recent_Posts.php:12
+msgid "Ventcamp Recent Posts"
+msgstr "Ventcamp последние записи"
+
+#: includes/widgets/ventcamp_widget_Recent_Posts.php:29
+msgid "Recent Posts"
+msgstr "Последние записи"
+
+#: includes/widgets/ventcamp_widget_Recent_Posts.php:130
+msgid "Number of posts to show:"
+msgstr "Количество записей для показа:"
+
+#: includes/widgets/ventcamp_widget_Recent_Posts.php:134
+msgid "Display post date?"
+msgstr "Показывать дату записи?"
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "Результаты поиска для: %s"
+
+#: searchform.php:10
+msgid "Search..."
+msgstr "Поиск..."
+
+#: woocommerce/auth/form-grant-access.php:25
+#: woocommerce/auth/form-login.php:27
+msgid "%s would like to connect to your store"
+msgstr "%s хочет подключится к вашему магазину"
+
+#: woocommerce/auth/form-grant-access.php:29
+msgid ""
+"This will give \"%s\" <strong>%s</strong> access which will allow it to:"
+msgstr "Это даст \"%s\" <strong>%s</strong> доступ, который позволит:"
+
+#: woocommerce/auth/form-grant-access.php:39
+msgid "Logged in as %s"
+msgstr "Вы вошли как %s"
+
+#: woocommerce/auth/form-grant-access.php:39
+msgid "Logout"
+msgstr "Выйти"
+
+#: woocommerce/auth/form-grant-access.php:43
+msgid "Approve"
+msgstr "Одобрить"
+
+#: woocommerce/auth/form-grant-access.php:44
+msgid "Deny"
+msgstr "Отклонить"
+
+#: woocommerce/auth/form-login.php:31
+msgid ""
+"To connect to %1$s you need to be logged in. Log in to your store below, or "
+"%2$scancel and return to %1$s%3$s"
+msgstr ""
+"Чтобы подключится к %1$s вы должны быть зарегистрированы. Войдите в магазин "
+"ниже или %2$sотмените и вернитесь в %1$s%3$s"
+
+#: woocommerce/auth/form-login.php:35 woocommerce/myaccount/form-login.php:44
+msgid "Username or email address"
+msgstr "Имя пользователя или e-mail адрес"
+
+#: woocommerce/auth/form-login.php:39 woocommerce/global/form-login.php:39
+#: woocommerce/myaccount/form-login.php:48
+#: woocommerce/myaccount/form-login.php:98
+msgid "Password"
+msgstr "Пароль"
+
+#: woocommerce/auth/form-login.php:44 woocommerce/global/form-login.php:48
+#: woocommerce/myaccount/form-login.php:37
+#: woocommerce/myaccount/form-login.php:56
+msgid "Login"
+msgstr "Войти"
+
+#: woocommerce/auth/header.php:29
+msgid "Application Authentication Request"
+msgstr "Запрос аутентификации приложения"
+
+#: woocommerce/cart/cart-empty.php:28
+msgid "Your cart is currently empty."
+msgstr "Ваш список покупок в данный момент пуст."
+
+#: woocommerce/cart/cart-empty.php:36
+msgid "Return To Shop"
+msgstr "Вернутся в магазин"
+
+#: woocommerce/cart/cart-shipping.php:48
+msgid "Shipping costs will be calculated once you have provided your address."
+msgstr "Стоимость доставки будет рассчитана как только вы введете ваш адрес."
+
+#: woocommerce/cart/cart-shipping.php:50
+msgid ""
+"There are no shipping methods available. Please double check your address, "
+"or contact us if you need any help."
+msgstr ""
+"Нет доступных методов доставки. Пожалуйста, дважды проверьте ваш адрес или "
+"свяжитесь с нами, если требуется помощь."
+
+#: woocommerce/cart/cart-totals.php:28
+msgid "Cart Totals"
+msgstr "Общая сумма корзины"
+
+#: woocommerce/cart/cart-totals.php:33 woocommerce/cart/cart-totals.php:34
+#: woocommerce/cart/mini-cart.php:80 woocommerce/checkout/review-order.php:59
+msgid "Subtotal"
+msgstr "Итого"
+
+#: woocommerce/cart/cart-totals.php:55 woocommerce/cart/cart-totals.php:56
+msgid "Shipping"
+msgstr "Доставка"
+
+#: woocommerce/cart/cart-totals.php:71
+msgid "estimated for %s"
+msgstr "ожидается к %s"
+
+#: woocommerce/cart/cart-totals.php:92 woocommerce/cart/cart-totals.php:93
+#: woocommerce/cart/cart.php:39 woocommerce/cart/cart.php:124
+#: woocommerce/checkout/review-order.php:27
+#: woocommerce/checkout/review-order.php:106
+#: woocommerce/myaccount/my-orders.php:16
+#: woocommerce/order/order-details.php:33
+msgid "Total"
+msgstr "Всего"
+
+#: woocommerce/cart/cart.php:36 woocommerce/cart/cart.php:81
+#: woocommerce/checkout/form-pay.php:29
+#: woocommerce/checkout/review-order.php:26
+#: woocommerce/emails/email-order-details.php:34
+#: woocommerce/order/order-details.php:32
+msgid "Product"
+msgstr "Товар"
+
+#: woocommerce/cart/cart.php:37 woocommerce/cart/cart.php:101
+#: woocommerce/emails/email-order-details.php:36
+msgid "Price"
+msgstr "Цена"
+
+#: woocommerce/cart/cart.php:38 woocommerce/cart/cart.php:107
+#: woocommerce/emails/email-order-details.php:35
+msgid "Quantity"
+msgstr "Количество"
+
+#: woocommerce/cart/cart.php:60 woocommerce/cart/mini-cart.php:49
+msgid "Remove this item"
+msgstr "Удалить этот товар"
+
+#: woocommerce/cart/cart.php:96
+msgid "Available on backorder"
+msgstr "Доступен на заказ"
+
+#: woocommerce/cart/cart.php:142
+msgid "Coupon:"
+msgstr "Купон:"
+
+#: woocommerce/cart/cart.php:142 woocommerce/checkout/form-coupon.php:36
+msgid "Coupon code"
+msgstr "Код купона"
+
+#: woocommerce/cart/cart.php:142 woocommerce/checkout/form-coupon.php:40
+msgid "Apply Coupon"
+msgstr "Применить купон"
+
+#: woocommerce/cart/cart.php:148
+msgid "Update Cart"
+msgstr "Обновить корзину"
+
+#: woocommerce/cart/cross-sells.php:47
+msgid "You may be interested in&hellip;"
+msgstr "Вам также может быть интересно&hellip;"
+
+#: woocommerce/cart/mini-cart.php:72
+msgid "No products in the cart."
+msgstr "Нет товаров в корзине."
+
+#: woocommerce/cart/mini-cart.php:85
+msgid "View Cart"
+msgstr "Просмотреть корзину"
+
+#: woocommerce/cart/mini-cart.php:86
+msgid "Checkout"
+msgstr "Оформить"
+
+#: woocommerce/cart/proceed-to-checkout-button.php:27
+msgid "Proceed to Checkout"
+msgstr "Перейти к оформлению"
+
+#: woocommerce/cart/shipping-calculator.php:33
+msgid "Calculate Shipping"
+msgstr "Рассчитать стоимость доставки"
+
+#: woocommerce/cart/shipping-calculator.php:39
+msgid "Select a country&hellip;"
+msgstr "Выберите страну&hellip;"
+
+#: woocommerce/cart/shipping-calculator.php:56
+#: woocommerce/cart/shipping-calculator.php:62
+#: woocommerce/cart/shipping-calculator.php:74
+msgid "State / county"
+msgstr "Область / Регион"
+
+#: woocommerce/cart/shipping-calculator.php:63
+msgid "Select a state&hellip;"
+msgstr "Выберите область&hellip;"
+
+#: woocommerce/cart/shipping-calculator.php:83
+msgid "City"
+msgstr "Город"
+
+#: woocommerce/cart/shipping-calculator.php:91
+msgid "Postcode / ZIP"
+msgstr "Почтовый индекс"
+
+#: woocommerce/cart/shipping-calculator.php:96
+msgid "Update Totals"
+msgstr "Обновить итоговую сумму"
+
+#: woocommerce/checkout/cart-errors.php:27
+msgid ""
+"There are some issues with the items in your cart (shown above). Please go "
+"back to the cart page and resolve these issues before checking out."
+msgstr ""
+"Возникли проблемы с товарами в вашей корзине (показано выше). Пожалуйста "
+"вернитесь на страницу корзины и разрешите их перед оформлением."
+
+#: woocommerce/checkout/cart-errors.php:31
+msgid "Return To Cart"
+msgstr "Вернутся в корзину"
+
+#: woocommerce/checkout/form-billing.php:29
+msgid "Billing &amp; Shipping"
+msgstr "Оплата и доставка"
+
+#: woocommerce/checkout/form-billing.php:33
+msgid "Billing Details"
+msgstr "Платежные реквизиты"
+
+#: woocommerce/checkout/form-billing.php:52
+msgid "Create an account?"
+msgstr "Создать аккаунт?"
+
+#: woocommerce/checkout/form-billing.php:63
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login at the top of the page."
+msgstr ""
+"Создайте учетную запись введя информацию ниже. Если вы уже зарегистрированы, "
+"пожалуйста войдите (форма входа наверху страницы)."
+
+#: woocommerce/checkout/form-checkout.php:29
+msgid "You must be logged in to checkout."
+msgstr "Вы должны войти для оформления заказа."
+
+#: woocommerce/checkout/form-checkout.php:55
+msgid "Your order"
+msgstr "Ваш заказ"
+
+#: woocommerce/checkout/form-coupon.php:28
+msgid "Have a coupon?"
+msgstr "Есть купон?"
+
+#: woocommerce/checkout/form-coupon.php:28
+msgid "Click here to enter your code"
+msgstr "Нажмите здесь, чтобы ввести ваш код"
+
+#: woocommerce/checkout/form-login.php:27
+msgid "Returning customer?"
+msgstr "Постоянный клиент?"
+
+#: woocommerce/checkout/form-login.php:28
+msgid "Click here to login"
+msgstr "Нажмите здесь, чтобы войти"
+
+#: woocommerce/checkout/form-login.php:35
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer, please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+"Если вы у нас раньше что-либо покупали, пожалуйста введите данные в поля "
+"ниже. Если вы новый покупатель, пожалуйста перейдите в секцию <em>Оплата и "
+"доставка</em>. "
+
+#: woocommerce/checkout/form-pay.php:30
+msgid "Qty"
+msgstr "Кол-во"
+
+#: woocommerce/checkout/form-pay.php:31
+msgid "Totals"
+msgstr "Итого"
+
+#: woocommerce/checkout/form-pay.php:79
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+"Простите, похоже что нет доступных методов оплаты для вашего местоположения. "
+"Пожалуйста, свяжитесь с нами если требуется помощь или хотите сделать "
+"альтернативное предложение."
+
+#: woocommerce/checkout/form-shipping.php:28
+msgid "Ship to a different address?"
+msgstr "Отправить на другой адрес?"
+
+#: woocommerce/checkout/form-shipping.php:54
+#: woocommerce/single-product/tabs/additional-information.php:25
+msgid "Additional Information"
+msgstr "Дополнительная информация"
+
+#: woocommerce/checkout/payment.php:35
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+"Простите, похоже нет доступных методов оплаты для вашей области. Пожалуйста, "
+"свяжитесь с нами если требуется помощь или хотите сделать альтернативное "
+"предложение."
+
+#: woocommerce/checkout/payment.php:35
+msgid "Please fill in your details above to see available payment methods."
+msgstr "Пожалуйста заполните поля выше чтобы увидеть доступные методы оплаты."
+
+#: woocommerce/checkout/payment.php:42
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+"Так как ваш браузер не поддерживает JavaScript, или он отключен, пожалуйста "
+"убедитесь что вы нажали кнопку <em>Обновить итоговую сумму</em> перед "
+"размещением заказа. С вас может быть снята большая сумма, чем указано выше, "
+"если вы не сделаете это."
+
+#: woocommerce/checkout/payment.php:43
+msgid "Update totals"
+msgstr "Обновить итоговую сумму"
+
+#: woocommerce/checkout/terms.php:17
+msgid ""
+"I&rsquo;ve read and accept the <a href=\"%s\" target=\"_blank\">terms &amp; "
+"conditions</a>"
+msgstr "Я прочел и принимаю <a href=\"%s\" target=\"_blank\">условия</a>"
+
+#: woocommerce/checkout/thankyou.php:27
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+"К сожалению, ваш заказ не может быть обработан, так как продавец/банк "
+"отклонил вашу транзакцию. Пожалуйста, повторите покупку заново."
+
+#: woocommerce/checkout/thankyou.php:30 woocommerce/myaccount/my-orders.php:72
+#: woocommerce/myaccount/orders.php:68
+msgid "Pay"
+msgstr "Оплатить"
+
+#: woocommerce/checkout/thankyou.php:32
+msgid "My Account"
+msgstr "Мой аккаунт"
+
+#: woocommerce/checkout/thankyou.php:38 woocommerce/checkout/thankyou.php:69
+msgid "Thank you. Your order has been received."
+msgstr "Спасибо. Ваш заказ получен."
+
+#: woocommerce/checkout/thankyou.php:42
+msgid "Order Number:"
+msgstr "Номер заказа:"
+
+#: woocommerce/checkout/thankyou.php:46
+msgid "Date:"
+msgstr "Дата:"
+
+#: woocommerce/checkout/thankyou.php:50
+msgid "Total:"
+msgstr "Всего:"
+
+#: woocommerce/checkout/thankyou.php:55
+msgid "Payment Method:"
+msgstr "Способ оплаты:"
+
+#: woocommerce/emails/admin-cancelled-order.php:28
+#: woocommerce/emails/plain/admin-cancelled-order.php:25
+msgid "The order #%d from %s has been cancelled. The order was as follows:"
+msgstr "Заказ #%d от %s был отменен. Заказ выглядел следующим образом:"
+
+#: woocommerce/emails/admin-failed-order.php:28
+#: woocommerce/emails/plain/admin-failed-order.php:25
+msgid "Payment for order #%d from %s has failed. The order was as follows:"
+msgstr "Оплата заказа #%d от %s не удалась. Заказ выглядел следующим образом:"
+
+#: woocommerce/emails/admin-new-order.php:28
+msgid "You have received an order from %s. The order is as follows:"
+msgstr "Вы получили заказ от %s. Детали заказа:"
+
+#: woocommerce/emails/customer-completed-order.php:28
+#: woocommerce/emails/plain/customer-completed-order.php:25
+msgid ""
+"Hi there. Your recent order on %s has been completed. Your order details are "
+"shown below for your reference:"
+msgstr ""
+"Здравствуйте. Ваш последний заказ на %s завершен. Детали вашего заказа "
+"отображены ниже для справки:"
+
+#: woocommerce/emails/customer-invoice.php:29
+#: woocommerce/emails/plain/customer-invoice.php:26
+msgid ""
+"An order has been created for you on %s. To pay for this order please use "
+"the following link: %s"
+msgstr ""
+"Заказ был создан для вас на %s. Чтобы оплатить этот заказ, пожалуйста "
+"используйте следующую ссылку: %s"
+
+#: woocommerce/emails/customer-invoice.php:29
+msgid "pay"
+msgstr "оплатить"
+
+#: woocommerce/emails/customer-new-account.php:27
+#: woocommerce/emails/plain/customer-new-account.php:25
+msgid ""
+"Thanks for creating an account on %s. Your username is <strong>%s</strong>"
+msgstr ""
+"Спасибо за то, что создали аккаунт на %s. Ваше имя пользователя <strong>%s</"
+"strong>"
+
+#: woocommerce/emails/customer-new-account.php:31
+msgid "Your password has been automatically generated: <strong>%s</strong>"
+msgstr "Ваш пароль был автоматически сгенерирован: <strong>%s</strong>"
+
+#: woocommerce/emails/customer-new-account.php:35
+#: woocommerce/emails/plain/customer-new-account.php:30
+msgid ""
+"You can access your account area to view your orders and change your "
+"password here: %s."
+msgstr ""
+"Вы можете получить доступ к учетной записи для просмотра заказов и изменить "
+"ваш пароль здесь: %s"
+
+#: woocommerce/emails/customer-note.php:28
+#: woocommerce/emails/plain/customer-note.php:25
+msgid "Hello, a note has just been added to your order:"
+msgstr "Здравствуйте, к вашему заказу была добавлена заметка:"
+
+#: woocommerce/emails/customer-note.php:32
+#: woocommerce/emails/plain/customer-note.php:33
+msgid "For your reference, your order details are shown below."
+msgstr "Для справки, детали вашего заказа отображены ниже."
+
+#: woocommerce/emails/customer-on-hold-order.php:28
+#: woocommerce/emails/plain/customer-on-hold-order.php:25
+msgid ""
+"Your order is on-hold until we confirm payment has been received. Your order "
+"details are shown below for your reference:"
+msgstr ""
+"Ваш заказ приостановлен до тех пор, пока мы не подтвердим что оплата "
+"получена. Детали вашего заказа показаны ниже для справки:"
+
+#: woocommerce/emails/customer-processing-order.php:28
+#: woocommerce/emails/plain/customer-processing-order.php:25
+msgid ""
+"Your order has been received and is now being processed. Your order details "
+"are shown below for your reference:"
+msgstr ""
+"Ваш заказ был получен и в данный момент обрабатывается. Детали вашего заказа "
+"показаны ниже для справки:"
+
+#: woocommerce/emails/customer-refunded-order.php:30
+msgid "Hi there. Your order on %s has been partially refunded."
+msgstr "Здравствуйте. Ваш заказ %s был частично возмещен."
+
+#: woocommerce/emails/customer-refunded-order.php:33
+msgid "Hi there. Your order on %s has been refunded."
+msgstr "Здравствуйте. Ваш заказ %s был возмещен."
+
+#: woocommerce/emails/customer-reset-password.php:27
+#: woocommerce/emails/plain/customer-reset-password.php:25
+msgid "Someone requested that the password be reset for the following account:"
+msgstr "Кто-то запросил сброс пароля для следующего аккаунта:"
+
+#: woocommerce/emails/customer-reset-password.php:28
+#: woocommerce/emails/plain/customer-reset-password.php:27
+msgid "Username: %s"
+msgstr "Имя пользователя: %s"
+
+#: woocommerce/emails/customer-reset-password.php:29
+#: woocommerce/emails/plain/customer-reset-password.php:28
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+"Если это была ошибка, просто проигнорируйте это письмо и ничего не случится."
+
+#: woocommerce/emails/customer-reset-password.php:30
+#: woocommerce/emails/plain/customer-reset-password.php:29
+msgid "To reset your password, visit the following address:"
+msgstr "Чтобы сбросить ваш пароль, пройдите по следующему адресу:"
+
+#: woocommerce/emails/customer-reset-password.php:33
+msgid "Click here to reset your password"
+msgstr "Нажмите здесь, чтобы сбросить ваш пароль"
+
+#: woocommerce/emails/email-addresses.php:26
+#: woocommerce/emails/plain/email-addresses.php:23
+msgid "Billing address"
+msgstr "Платежный адрес"
+
+#: woocommerce/emails/email-addresses.php:32
+#: woocommerce/emails/plain/email-addresses.php:27
+msgid "Shipping address"
+msgstr "Адрес доставки"
+
+#: woocommerce/emails/email-customer-details.php:26
+#: woocommerce/emails/plain/email-customer-details.php:25
+msgid "Customer details"
+msgstr "Реквизиты клиента"
+
+#: woocommerce/emails/email-order-details.php:26
+#: woocommerce/emails/email-order-details.php:28
+msgid "Order #%s"
+msgstr "Заказ #%s"
+
+#: woocommerce/emails/email-order-items.php:34
+msgid "Product Image"
+msgstr "Изображение товара"
+
+#: woocommerce/emails/plain/admin-new-order.php:25
+msgid "You have received an order from %s."
+msgstr "Вы получили заказ от %s."
+
+#: woocommerce/emails/plain/customer-new-account.php:28
+msgid "Your password is <strong>%s</strong>."
+msgstr "Ваш пароль <strong>%s</strong>."
+
+#: woocommerce/emails/plain/customer-refunded-order.php:25
+msgid ""
+"Hi there. Your order on %s has been refunded. Your order details are shown "
+"below for your reference:"
+msgstr ""
+"Здравствуйте. Ваш заказ %s был возмещён. Детали вашего заказа показаны ниже "
+"для справки:"
+
+#: woocommerce/emails/plain/email-order-details.php:25
+msgid "Order number: %s"
+msgstr "Номер заказа: %s"
+
+#: woocommerce/emails/plain/email-order-details.php:26
+msgid "jS F Y"
+msgstr "jS F Y"
+
+#: woocommerce/emails/plain/email-order-details.php:43
+msgid "View order: %s"
+msgstr "Просмотреть заказ: %s"
+
+#: woocommerce/emails/plain/email-order-items.php:44
+msgid "Quantity: %s"
+msgstr "Количество: %s"
+
+#: woocommerce/emails/plain/email-order-items.php:47
+msgid "Cost: %s"
+msgstr "Стоимость: %s"
+
+#: woocommerce/emails/plain/email-order-items.php:58
+msgid "Download %d"
+msgstr "Скачать %d"
+
+#: woocommerce/emails/plain/email-order-items.php:60
+#: woocommerce/myaccount/downloads.php:75
+msgid "Download"
+msgstr "Скачать"
+
+#: woocommerce/global/form-login.php:35
+#: woocommerce/myaccount/form-lost-password.php:30
+msgid "Username or email"
+msgstr "Имя пользователя или e-mail"
+
+#: woocommerce/global/form-login.php:51
+#: woocommerce/myaccount/form-login.php:58
+msgid "Remember me"
+msgstr "Запомнить меня"
+
+#: woocommerce/global/form-login.php:55
+#: woocommerce/myaccount/form-login.php:62
+msgid "Lost your password?"
+msgstr "Забыли пароль?"
+
+#: woocommerce/global/quantity-input.php:24
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr "Кол-во"
+
+#: woocommerce/loop/no-products-found.php:24
+msgid "No products were found matching your selection."
+msgstr "Не найдены товары соответствующие вашим критериям."
+
+#: woocommerce/loop/result-count.php:39
+msgid "Showing the single result"
+msgid_plural "Showing all %d results"
+msgstr[0] "Показан единственный результат"
+msgstr[1] "Показаны %d результата"
+msgstr[2] "Показаны %d результатов"
+
+#: woocommerce/loop/result-count.php:41
+msgctxt "%1$d = first, %2$d = last, %3$d = total"
+msgid "Showing the single result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] "Показ единственного результата"
+msgstr[1] "Показ %1$d&ndash;%2$d из %3$d результатов"
+msgstr[2] "Показ %1$d&ndash;%2$d из %3$d результатов"
+
+#: woocommerce/loop/sale-flash.php:28
+#: woocommerce/single-product/sale-flash.php:28
+msgid "Sale!"
+msgstr "Распродажа!"
+
+#: woocommerce/myaccount/dashboard.php:28
+msgid "Hello %s%s%s (not %2$s? %sSign out%s)"
+msgstr "Здравствуйте, %s%s%s (не %2$s? %sВыйти%s)"
+
+#: woocommerce/myaccount/dashboard.php:34
+msgid ""
+"From your account dashboard you can view your %1$srecent orders%2$s, manage "
+"your %3$sshipping and billing addresses%2$s and %4$sedit your password and "
+"account details%2$s."
+msgstr ""
+"Из панели управления вы можете посмотреть ваши %1$sпоследние заказы%2$s, "
+"изменить ваш %3$sплатежный адрес и адрес доставки%2$s, %4$sпоменять ваш "
+"пароль и детали учетной записи%2$s."
+
+#: woocommerce/myaccount/downloads.php:59
+msgid "&infin;"
+msgstr "&infin;"
+
+#: woocommerce/myaccount/downloads.php:67
+msgid "Never"
+msgstr "Никогда"
+
+#: woocommerce/myaccount/downloads.php:98 woocommerce/myaccount/orders.php:119
+msgid "Go Shop"
+msgstr "Перейти в магазин"
+
+#: woocommerce/myaccount/downloads.php:100
+msgid "No downloads available yet."
+msgstr "Загрузки пока не доступны."
+
+#: woocommerce/myaccount/form-add-payment-method.php:53
+#: woocommerce/myaccount/payment-methods.php:78
+msgid "Add Payment Method"
+msgstr "Добавить способ оплаты"
+
+#: woocommerce/myaccount/form-add-payment-method.php:59
+msgid ""
+"Sorry, it seems that there are no payment methods which support adding a new "
+"payment method. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+"Простите, похоже нет платежных методов, которые поддерживают добавление "
+"нового платежного метода. Пожалуйста, свяжитесь с нами если требуется помощь "
+"или хотите сделать альтернативное предложение."
+
+#: woocommerce/myaccount/form-edit-account.php:30
+msgid "First name"
+msgstr "Имя"
+
+#: woocommerce/myaccount/form-edit-account.php:34
+msgid "Last name"
+msgstr "Фамилия"
+
+#: woocommerce/myaccount/form-edit-account.php:40
+#: woocommerce/myaccount/form-login.php:91
+msgid "Email address"
+msgstr "E-mail адрес"
+
+#: woocommerce/myaccount/form-edit-account.php:45
+msgid "Password Change"
+msgstr "Изменение пароля"
+
+#: woocommerce/myaccount/form-edit-account.php:48
+msgid "Current Password (leave blank to leave unchanged)"
+msgstr "Текущий пароль (оставьте пустым, если не хотите менять)"
+
+#: woocommerce/myaccount/form-edit-account.php:52
+msgid "New Password (leave blank to leave unchanged)"
+msgstr "Новый пароль (оставьте пустым, если не хотите менять)"
+
+#: woocommerce/myaccount/form-edit-account.php:56
+msgid "Confirm New Password"
+msgstr "Подтвердите новый пароль"
+
+#: woocommerce/myaccount/form-edit-account.php:66
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+#: woocommerce/myaccount/form-edit-address.php:23
+#: woocommerce/myaccount/my-address.php:27
+#: woocommerce/myaccount/my-address.php:32
+#: woocommerce/order/order-details-customer.php:58
+msgid "Billing Address"
+msgstr "Платежный адрес"
+
+#: woocommerce/myaccount/form-edit-address.php:23
+#: woocommerce/myaccount/my-address.php:28
+#: woocommerce/order/order-details-customer.php:69
+msgid "Shipping Address"
+msgstr "Адрес доставки"
+
+#: woocommerce/myaccount/form-edit-address.php:46
+msgid "Save Address"
+msgstr "Сохранить адрес"
+
+#: woocommerce/myaccount/form-login.php:75
+#: woocommerce/myaccount/form-login.php:112
+msgid "Register"
+msgstr "Зарегистрироваться"
+
+#: woocommerce/myaccount/form-login.php:84
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: woocommerce/myaccount/form-login.php:105
+msgid "Anti-spam"
+msgstr "Анти-спам"
+
+#: woocommerce/myaccount/form-lost-password.php:27
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+"Забыли пароль? Пожалуйста введите ваше имя пользователя или e-mail адрес. Вы "
+"получите на почту ссылку для создания нового пароля."
+
+#: woocommerce/myaccount/form-lost-password.php:40
+msgid "Reset Password"
+msgstr "Сбросить пароль"
+
+#: woocommerce/myaccount/form-reset-password.php:27
+msgid "Enter a new password below."
+msgstr "Введите новый пароль ниже."
+
+#: woocommerce/myaccount/form-reset-password.php:30
+msgid "New password"
+msgstr "Новый пароль"
+
+#: woocommerce/myaccount/form-reset-password.php:34
+msgid "Re-enter new password"
+msgstr "Повторите новый пароль"
+
+#: woocommerce/myaccount/form-reset-password.php:47
+msgid "Save"
+msgstr "Сохранить"
+
+#: woocommerce/myaccount/lost-password-confirmation.php:24
+msgid "Password reset email has been sent."
+msgstr "Письмо для сброса пароля было отправлено."
+
+#: woocommerce/myaccount/lost-password-confirmation.php:27
+msgid ""
+"A password reset email has been sent to the email address on file for your "
+"account, but may take several minutes to show up in your inbox. Please wait "
+"at least 10 minutes before attempting another reset."
+msgstr ""
+"Письмо для сброса пароля было послано на ваш e-mail адрес, заданный в вашей "
+"учетной записи, но возможно потребуется несколько минут пока оно появится во "
+"входящих. Пожалуйста, подождите хотя бы минут 10 перед тем, как повторять."
+
+#: woocommerce/myaccount/my-address.php:41
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+"Следующие адреса будут использованы по умолчанию на странице оформления "
+"заказа."
+
+#: woocommerce/myaccount/my-address.php:70
+msgid "You have not set up this type of address yet."
+msgstr "Вы ещё не настроили этот тип адреса."
+
+#: woocommerce/myaccount/my-downloads.php:30
+msgid "Available Downloads"
+msgstr "Доступные загрузки"
+
+#: woocommerce/myaccount/my-downloads.php:39
+msgid "%s download remaining"
+msgid_plural "%s downloads remaining"
+msgstr[0] "%s загрузка осталась"
+msgstr[1] "%s загрузки осталось"
+msgstr[2] "%s загрузок осталось"
+
+#: woocommerce/myaccount/my-orders.php:13
+msgid "Order"
+msgstr "Заказ"
+
+#: woocommerce/myaccount/my-orders.php:30
+msgid "Recent Orders"
+msgstr "Последние заказы"
+
+#: woocommerce/myaccount/my-orders.php:55 woocommerce/myaccount/orders.php:51
+msgctxt "hash before order number"
+msgid "#"
+msgstr "#"
+
+#: woocommerce/myaccount/my-orders.php:65 woocommerce/myaccount/orders.php:61
+msgid "%s for %s item"
+msgid_plural "%s for %s items"
+msgstr[0] "%s за %s товар"
+msgstr[1] "%s за %s товара"
+msgstr[2] "%s за %s товаров"
+
+#: woocommerce/myaccount/my-orders.php:76 woocommerce/myaccount/orders.php:72
+msgid "View"
+msgstr "Просмотр"
+
+#: woocommerce/myaccount/my-orders.php:80 woocommerce/myaccount/orders.php:76
+msgid "Cancel"
+msgstr "Отменить"
+
+#: woocommerce/myaccount/orders.php:107
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: woocommerce/myaccount/orders.php:111
+msgid "Next"
+msgstr "Следущий"
+
+#: woocommerce/myaccount/orders.php:121
+msgid "No order has been made yet."
+msgstr "Заказов пока не было."
+
+#: woocommerce/myaccount/payment-methods.php:51
+msgid "%s ending in %s"
+msgstr "%s заканчивается на %s"
+
+#: woocommerce/myaccount/payment-methods.php:72
+msgid "No saved methods found."
+msgstr "Не найдено сохраненных методов оплаты."
+
+#: woocommerce/myaccount/view-order.php:28 woocommerce/order/tracking.php:26
+msgid "Order #%1$s was placed on %2$s and is currently %3$s."
+msgstr "Заказ #%1$s был размещён в %2$s и в данный момент %3$s."
+
+#: woocommerce/myaccount/view-order.php:36 woocommerce/order/tracking.php:34
+msgid "Order Updates"
+msgstr "Обновления к заказу"
+
+#: woocommerce/myaccount/view-order.php:42 woocommerce/order/tracking.php:40
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr "l jS \\o\\f F Y, h:ia"
+
+#: woocommerce/order/form-tracking.php:29
+msgid ""
+"To track your order please enter your Order ID in the box below and press "
+"the \"Track\" button. This was given to you on your receipt and in the "
+"confirmation email you should have received."
+msgstr ""
+"Чтобы отследить ваш заказ, пожалуйста введите ID заказа в поле ниже и "
+"нажмите кнопку \"Отследить\". Этот ID был в квитанции и e-mail "
+"подтверждении, который вы получили."
+
+#: woocommerce/order/form-tracking.php:31
+msgid "Order ID"
+msgstr "ID заказа"
+
+#: woocommerce/order/form-tracking.php:31
+msgid "Found in your order confirmation email."
+msgstr "Найдено в письме подтверждения заказа."
+
+#: woocommerce/order/form-tracking.php:32
+msgid "Billing Email"
+msgstr "Платежный e-mail"
+
+#: woocommerce/order/form-tracking.php:32
+msgid "Email you used during checkout."
+msgstr "E-mail, который вы использовали во время оформления заказа."
+
+#: woocommerce/order/form-tracking.php:35
+msgid "Track"
+msgstr "Отследить"
+
+#: woocommerce/order/order-again.php:25
+msgid "Order Again"
+msgstr "Заказать снова"
+
+#: woocommerce/order/order-details-customer.php:23
+msgid "Customer Details"
+msgstr "Реквизиты клиента"
+
+#: woocommerce/order/order-details-customer.php:28
+msgid "Note:"
+msgstr "Примечание:"
+
+#: woocommerce/order/order-details-customer.php:35
+msgid "Email:"
+msgstr "E-mail:"
+
+#: woocommerce/order/order-details-customer.php:42
+msgid "Telephone:"
+msgstr "Телефон:"
+
+#: woocommerce/order/order-details-customer.php:61
+#: woocommerce/order/order-details-customer.php:72
+#: woocommerce/single-product/meta.php:35
+msgid "N/A"
+msgstr "Недоступно"
+
+#: woocommerce/order/order-details.php:28
+msgid "Order Details"
+msgstr "Детали заказа"
+
+#: woocommerce/product-searchform.php:27
+msgid "Search for:"
+msgstr "Искать:"
+
+#: woocommerce/product-searchform.php:28
+msgctxt "placeholder"
+msgid "Search Products&hellip;"
+msgstr "Искать товары&hellip;"
+
+#: woocommerce/product-searchform.php:28
+msgctxt "label"
+msgid "Search for:"
+msgstr "Поиск по:"
+
+#: woocommerce/product-searchform.php:29
+msgctxt "submit button"
+msgid "Search"
+msgstr "Поиск"
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr "Этот товар на данный момент закончился и недоступен."
+
+#: woocommerce/single-product/add-to-cart/variable.php:43
+msgid "Clear"
+msgstr "Очистить"
+
+#: woocommerce/single-product/add-to-cart/variation.php:31
+msgid ""
+"Sorry, this product is unavailable. Please choose a different combination."
+msgstr "Простите, это товар недоступен. Пожалуйста выберите другую комбинацию."
+
+#: woocommerce/single-product/meta.php:35
+msgid "SKU:"
+msgstr "Складской номер:"
+
+#: woocommerce/single-product/meta.php:39
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] "Категория:"
+msgstr[1] "Категории:"
+msgstr[2] "Категории:"
+
+#: woocommerce/single-product/meta.php:41
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] "Метка:"
+msgstr[1] "Метки:"
+msgstr[2] "Метки:"
+
+#: woocommerce/single-product/product-attributes.php:38
+msgid "Weight"
+msgstr "Вес"
+
+#: woocommerce/single-product/product-attributes.php:45
+msgid "Dimensions"
+msgstr "Размеры"
+
+#: woocommerce/single-product/product-image.php:47
+msgid "Placeholder"
+msgstr "Заглушка"
+
+#: woocommerce/single-product/rating.php:36
+msgid "Rated %s out of 5"
+msgstr "Оценен %s из 5"
+
+#: woocommerce/single-product/rating.php:38
+msgid "out of %s5%s"
+msgstr "из %s5%s"
+
+#: woocommerce/single-product/rating.php:39
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] "на основе %s покупательского рейтинга"
+msgstr[1] "на основе %s покупательских рейтингов"
+msgstr[2] "на основе %s покупательских рейтингов"
+
+#: woocommerce/single-product/rating.php:42
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] "%s отзыв покупателя"
+msgstr[1] "%s отзыва покупателей"
+msgstr[2] "%s отзывов покупателей"
+
+#: woocommerce/single-product/related.php:51
+msgid "Related Products"
+msgstr "Похожие продукты"
+
+#: woocommerce/single-product/review-meta.php:28
+msgid "Your comment is awaiting approval"
+msgstr "Ваш комментарий ожидает одобрения"
+
+#: woocommerce/single-product/review-meta.php:36
+msgid "verified owner"
+msgstr "подтвержденный покупатель"
+
+#: woocommerce/single-product/review-rating.php:28
+msgid "Rated %d out of 5"
+msgstr "Оценен %d из 5"
+
+#: woocommerce/single-product/review-rating.php:29
+msgid "out of 5"
+msgstr "из 5"
+
+#: woocommerce/single-product/tabs/description.php:25
+msgid "Product Description"
+msgstr "Описание продукта"
+
+#: woocommerce/single-product/up-sells.php:48
+msgid "You may also like&hellip;"
+msgstr "Вам может также понравится&hellip;"
+
+#: woocommerce/single-product-reviews.php:33
+msgid "%s review for %s%s%s"
+msgid_plural "%s reviews for %s%s%s"
+msgstr[0] "%s отзыв на %s%s%s"
+msgstr[1] "%s отзыва на %s%s%s"
+msgstr[2] "%s отзывов на %s%s%s"
+
+#: woocommerce/single-product-reviews.php:35
+msgid "Reviews"
+msgstr "Обзоры"
+
+#: woocommerce/single-product-reviews.php:56
+msgid "There are no reviews yet."
+msgstr "Пока нет ни одного отзыва."
+
+#: woocommerce/single-product-reviews.php:69
+msgid "Add a review"
+msgstr "Добавить обзор"
+
+#: woocommerce/single-product-reviews.php:69
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr "Будьте первым, кто оставит отзыв &ldquo;%s&rdquo;"
+
+#: woocommerce/single-product-reviews.php:70
+msgid "Leave a Reply to %s"
+msgstr "Оставить ответ к %s"
+
+#: woocommerce/single-product-reviews.php:73
+msgid "Name"
+msgstr "Имя"
+
+#: woocommerce/single-product-reviews.php:75
+msgid "Email"
+msgstr "E-mail"
+
+#: woocommerce/single-product-reviews.php:78
+msgid "Submit"
+msgstr "Отправить"
+
+#: woocommerce/single-product-reviews.php:84
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr "Вы должны <a href=\"%s\">войти</a> чтобы опубликовать обзор."
+
+#: woocommerce/single-product-reviews.php:88
+msgid "Your Rating"
+msgstr "Ваш рейтинг"
+
+#: woocommerce/single-product-reviews.php:89
+msgid "Rate&hellip;"
+msgstr "Оценить&hellip;"
+
+#: woocommerce/single-product-reviews.php:90
+msgid "Perfect"
+msgstr "Идеально"
+
+#: woocommerce/single-product-reviews.php:91
+msgid "Good"
+msgstr "Хорошо"
+
+#: woocommerce/single-product-reviews.php:92
+msgid "Average"
+msgstr "Средне"
+
+#: woocommerce/single-product-reviews.php:93
+msgid "Not that bad"
+msgstr "Неплохо"
+
+#: woocommerce/single-product-reviews.php:94
+msgid "Very Poor"
+msgstr "Очень плохо"
+
+#: woocommerce/single-product-reviews.php:98
+msgid "Your Review"
+msgstr "Ваш обзор"
+
+#: woocommerce/single-product-reviews.php:107
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+"Только зарегистрированные покупатели, кто купил данный продукт могут "
+"оставлять отзыв."
+
+#. Theme URI of the plugin/theme
+msgid "http://ventcampwp.com"
+msgstr "http://ventcampwp.com"
+
+#. Description of the plugin/theme
+msgid "ultimate event theme"
+msgstr "идеальная тема для мероприятий"
+
+#. Author of the plugin/theme
+msgid "Vivaco"
+msgstr "Vivaco"
+
+#. Author URI of the plugin/theme
+msgid "http://vivaco.com/"
+msgstr "http://vivaco.com/"
+
+#. Template Name of the plugin/theme
+msgid "Sidebar Left"
+msgstr "Левая боковая панель"
+
+#. Template Name of the plugin/theme
+msgid "Sidebar Right"
+msgstr "Правая боковая панель"

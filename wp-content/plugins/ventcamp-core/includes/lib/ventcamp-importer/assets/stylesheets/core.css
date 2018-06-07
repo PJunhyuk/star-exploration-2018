@@ -1,0 +1,150 @@
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,
+.clearfix:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+	*zoom: 1;
+}
+
+/*
+ * css styles for Ventcamp Import Demo data page
+ */
+
+.radio-group {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+}
+
+.radio-horizontal {
+	float: left;
+	position: relative;
+	display: block;
+}
+
+.radio {
+	position: relative;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.style-selector-wrapper input {
+	position:absolute;
+	z-index:999;
+}
+
+.col-sml,
+.col-med,
+.col-lg,
+.col-half {
+	float: left;
+	min-height: 1px;
+}
+
+.col-sml {
+	width: 5%;
+}
+
+.col-med {
+	width: 25%;
+}
+
+.col-lg {
+	width: 35%;
+}
+
+.col-half {
+	width: 50%;
+}
+
+/* =Full width on mobile devices
+------------------------ */
+@media screen and (max-width: 782px) {
+	.col-sml,
+	.col-med,
+	.col-lg,
+	.col-half {
+		width: 100%;
+	}
+}
+
+/* =Style thumbnails
+------------------------ */
+
+.no_style {
+	background-image: url(../images/no_style.png);
+}
+
+.default {
+	background-image: url(../images/default.png);
+}
+
+.flower_lovers {
+	background-image: url(../images/flower_lovers.png);
+}
+
+.latitude {
+	background-image: url(../images/latitude.png);
+}
+
+.innovato {
+	background-image: url(../images/innovato.png);
+}
+
+/* =Style selector
+------------------------ */
+
+.style-selector-wrapper input:active +.style-selector {
+	opacity: 0.9;
+}
+
+.style-selector-wrapper input:checked +.style-selector {
+	-webkit-filter: none;
+	-moz-filter: none;
+	filter: none;
+}
+
+.style-selector {
+	cursor: pointer;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 140px;
+    height: 84px;
+    border-radius: 4px;
+	-webkit-transition: all 100ms ease-in;
+	-moz-transition: all 100ms ease-in;
+	transition: all 100ms ease-in;
+	-webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+	-moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+	filter: brightness(1.8) grayscale(1) opacity(.7);
+}
+
+.style-selector:hover {
+	-webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+	-moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+	filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+
+.style-selector-wrapper input { margin: 5px 0 0 12px; }
+.style-selector-wrapper label { margin-left: 7px; margin-bottom: 7px; }

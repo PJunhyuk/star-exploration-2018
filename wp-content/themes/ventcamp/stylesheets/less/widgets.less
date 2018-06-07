@@ -1,0 +1,278 @@
+/* ----------------------------------------------------------------------------
+    Widgets
+---------------------------------------------------------------------------- */
+
+.widget {
+    margin-bottom: 50px;
+
+    .widget-head {
+        margin-bottom: 15px;
+        font-weight: @bold-weight;
+        margin-left: -5px;
+        .fa {
+            margin-right: 10px;
+        }
+    }
+}
+
+.widget_about,
+.about-widget {
+    small {
+        color: @footer_text_color;
+    }
+
+    img {
+        margin: 20px 0 0;
+        display: inline-block;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.twitter-widget {
+    margin: 0 0 30px;
+
+    .tweet {
+        margin-bottom: 20px;
+    }
+
+    .tweet-text {
+        margin-bottom: 5px;
+        line-height: 21px;
+    }
+}
+
+.instagram-widget .instagram-list {
+    margin: -10px -14px 30px;
+    max-width: 450px;
+    padding: 5px 0;
+    font-size: 0;
+    line-height: 0;
+
+    & > li {
+        display: inline-block;
+        width: 33.33333%;
+        padding: 14px;
+    }
+}
+
+// Recent posts widget
+.widget_recent_entries {
+    // Add a little spacing between posts
+    .recent-post {
+        margin-bottom: 10px;
+        // Behave like a table
+        display: table;
+
+        // Float to the left
+        .recent-post-image {
+            display: table-cell;
+            padding-right: 15px;
+
+            // Set image dimensions
+            img {
+                width: 70px;
+                min-height: 50px;
+            }
+        }
+
+        // Add a little spacing between avatar and content
+        .recent-post-meta {
+            display: table-cell;
+            vertical-align: top;
+
+            // Break to the next line
+            a,
+            .post-date {
+                display: block;
+            }
+        }
+    }
+}
+
+.widget_recent_comments .recent-comments-list,
+.recent-comments-widget .recent-comments-list {
+    .recent-comment {
+        margin-bottom: 12px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        p {
+            margin: 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            line-height: 23px;
+        }
+
+        small {
+            display: block;
+            line-height: 18px;
+        }
+    }
+}
+
+.archives-widget,
+.categories-widget,
+.meta-widget,
+.widget_meta {
+    line-height: 26px;
+}
+
+.widget_tag_cloud .tagcloud {
+    font-size: 0;
+    line-height: 0;
+
+    li {
+        margin: 0 5px 7px 0;
+        display: inline-block;
+
+        a {
+            display: inline-block;
+            padding: 0 10px;
+            font-family: @typography_heading_font_family;
+            font-size: @font-size-thin;
+            font-weight: @typography_heading_font_weight;
+            text-transform: uppercase;
+            text-decoration: none;
+            line-height: 21px;
+            color: @footer_link_color;
+            border: 1px solid @footer_link_color;
+            border-radius: 4px;
+            -webkit-transition: color 0.15s ease, background 0.15s ease;
+                 -o-transition: color 0.15s ease, background 0.15s ease;
+                    transition: color 0.15s ease, background 0.15s ease;
+
+            &:hover {
+                color: @text-white;
+                background-color: @footer_link_color;
+            }
+        }
+    }
+}
+
+.widget_search,
+.search-widget {
+    form {
+        position: relative;
+
+        input {
+            margin: 0;
+            padding-right: 42px;
+            color: #333;
+            background-color: transparent;
+            border: 2px solid fade(@gray-light, 22%);
+            z-index: 1;
+
+        }
+
+        ::-webkit-input-placeholder { color: fade(@footer_text_color, 60%); }
+        ::-moz-placeholder          { color: fade(@footer_text_color, 60%); }
+        :-moz-placeholder           { color: fade(@footer_text_color, 60%); }
+        :-ms-input-placeholder      { color: fade(@footer_text_color, 60%); }
+
+        button {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            display: inline-block;
+            width: 42px;
+            line-height: 32px;
+            background-color: transparent;
+            border: none;
+            outline: none;
+        }
+    }
+}
+
+.widget-area .widget {
+    ul {
+        padding-left: 25px;
+    }
+
+    .widget-head {
+        color: #333333;
+    }
+}
+
+.footer,
+.widget-area {
+    .widget {
+        &.widget_recent_entries .widget-head:before {
+            content: "\f11d";
+        }
+
+        &.widget_recent_comments .widget-head:before {
+            content: "\f0e6";
+        }
+
+        &.widget_archive .widget-head:before {
+            content: "\f016";
+        }
+
+        &.widget_categories .widget-head:before {
+            content: "\f114";
+        }
+
+        &.widget_meta .widget-head:before {
+            content: "\f097";
+        }
+
+        &.widget_calendar .widget-head:before {
+            content: "\f073";
+        }
+
+        &.widget_tag_cloud .widget-head:before {
+            content: "\f02b";
+        }
+
+        &.widget_calendar {
+            th, td {
+                padding: 10px;
+                text-align: center;
+            }
+        }
+
+        .widget-head {
+            &:before {
+                color:@skin_accent_color;
+                font-family: 'FontAwesome';
+                font-weight: normal;
+                margin: 0;
+                margin-right:7px;
+                width: 25px;
+                text-align: left;
+                font-size: 1.1em;
+            }
+        }
+    }
+}
+
+.footer .widget {
+
+    margin-bottom: 30px;
+
+    &.widget_pages .widget-head:before {
+        content: "\f097";
+    }
+
+    &.widget_tag_cloud {
+        .tagcloud a {
+            line-height:1.1em;
+            padding:5px 3px;
+        }
+    }
+}
+
+@media(max-width: @screen-xs-max) {
+    .widget {
+        margin-bottom: 30px;
+    }
+
+    .widget .widget-head {
+        margin-bottom: 5px;
+    }
+}

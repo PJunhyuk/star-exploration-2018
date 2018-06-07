@@ -1,0 +1,167 @@
+// ================================================
+// ------------------------------------------------
+//
+//  **************** Less Mixins ******************
+//
+// ------------------------------------------------
+// ================================================
+
+
+// Micro Clearfix Mixin
+.clearfix {
+    zoom:1;
+
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+
+    &:after {
+        clear: both;
+    }
+}
+
+// Boxed Layout Mixin
+.boxed-layout(@boxed) when (@boxed = 1) {
+    .main-container {
+        margin: 0 auto;
+        max-width: @screen-lg;
+        width: @screen-lg;
+
+        @media (max-width: @screen-md-max) {
+            max-width: @screen-md;
+            width: @screen-md;
+        }
+
+        @media (max-width: @screen-sm-max) {
+            max-width: @screen-sm;
+            width: @screen-sm;
+        }
+
+        @media (max-width: @screen-xs-max) {
+            max-width: 95%;
+            width: 95%;
+        }
+    }
+
+    .main-nav.fixed {
+        > .menu-wrapper {
+            background-color: transparent !important;
+
+            > .container {
+                background-color: @menu_bar_background_color;
+                &:extend(.main-container all);
+            }
+        }
+    }
+}
+
+// Body background image mixin
+.background-image(@image) when not (@image = 0) {
+    body {
+        background-image: url("@{website_background_image}");
+    }
+}
+
+// Body background attachment - fixed cover mixin
+.background-fixed(@fixed) when (@fixed = 1) {
+    body {
+        background-attachment: fixed;
+    }
+}
+
+// Text mixins
+.uppercase(@uppercase) when (@uppercase = 1) {
+    text-transform: uppercase;
+}
+
+.italic(@italic) when (@italic = 1) {
+    font-style: italic;
+}
+
+.underline(@underline) when (@underline = 1) {
+    text-decoration: underline;
+}
+
+.strikethrough(@strikethrough) when (@strikethrough = 1) {
+    text-decoration: line-through;
+}
+
+// Hide mixin
+.hide(@hide) when (@hide = 1) {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+}
+
+// Default typography headings styles
+.default-typography-font-family(@heading-ff) when (@heading-ff = Roboto) {
+    .heading-alt,
+    #newsletter h3,
+    .schedule-item h6,
+    .vc_general.vc_cta3 h2
+    .nav.nav-schedule > li h4,
+    .nav.nav-schedule > li a h4,
+    .nav.nav-schedule > li h5,
+    .widget .widget-head,
+    .vc_tta.vc_tta-tabs.vc_tta-style-classic .vc_tta-title-text,
+    .schedule .nav-wrapper h4,
+    .nav-wrapper .nav.nav-schedule > li > a > h4,
+    .package-panel .currency,
+    .package-panel .package-price,
+    .package-panel h6.package-title,
+    .package-column .currency,
+    .package-column .package-price,
+    .vc_tta-tabs.vc_tta-style-outline .vc_tta-tab > a,
+    .package-column h6.package-title {
+        font-family: @font-family-pt-sans-ct;
+    }
+}
+
+.default-typography__font-weight(@heading-fw) when (@heading-fw = 400) {
+    #newsletter h3,
+    .schedule-item h6,
+    .vc_general.vc_cta3 h2,
+    .nav.nav-schedule > li h4,
+    .nav.nav-schedule > li h5,
+    .vc_tta.vc_tta-tabs.vc_tta-style-classic .vc_tta-title-text,
+    .package-panel .currency,
+    .package-panel .package-price,
+    .package-panel h6.package-title,
+    .package-column .currency,
+    .package-column .package-price,
+    .package-column h6.package-title {
+        font-weight: @bold-weight;
+    }
+}
+
+.default-typography__letter-spacing(@heading-lts) when (@heading-lts = -0.05em) {
+    .schedule-item h6,
+    .widget .widget-head {
+        letter-spacing: -0.03em;
+    }
+
+    .package-column .package-price {
+        letter-spacing: -0.05em;
+    }
+
+    @media (max-width: @screen-xs-max) {
+        .schedule-item h6,
+        .widget .widget-head {
+            letter-spacing: 0;
+        }
+    }
+}
+
+.default-typography__font-size(@heading-fz) when (@heading-fz = 70px) {
+    .schedule-item h6 {
+        font-size: 22px;
+    }
+}
+
+.default-typography__color(@heading-color) when (@heading-color = #333333) {
+    .schedule-item h6 {
+        color: #333;
+    }
+}

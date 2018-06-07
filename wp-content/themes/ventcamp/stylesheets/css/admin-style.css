@@ -1,0 +1,84 @@
+/* @font-size-h4:                          @typography_heading_font_size * 0.57777; // 40.39 */
+/* Hide unused elements */
+.wpb-content-layouts li[data-element="vc_btn"],
+.wpb-content-layouts li[data-element="vc_tta_tour"],
+.wpb-content-layouts li[data-element="contact-form-7"] {
+  display: none !important;
+}
+/* Hide default controls, because we have our extended ones */
+#accordion-section-header_image,
+#accordion-section-background_image {
+  display: none !important;
+}
+/* import page styling */
+#demo_import span {
+  line-height: 35px;
+}
+.form-block {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.form-block label {
+  position: relative;
+  display: block;
+}
+.vc_colored-dropdown .accent-color {
+  background-color: #00fcff;
+  color: #262627;
+}
+.vc_ui-panel-window[data-vc-shortcode="vc_row"] .vc_css-editor .vc_border-radius + label,
+.vc_ui-panel-window[data-vc-shortcode="vc_row"] .vc_css-editor .vc_border-radius + label + .color-group,
+.vc_ui-panel-window[data-vc-shortcode="vc_row"] .vc_css-editor .vc_background-image,
+.vc_ui-panel-window[data-vc-shortcode="vc_row"] .vc_css-editor .vc_background-style {
+  display: none;
+}
+.vc_ui-panel-window[data-vc-shortcode="vc_row"] .vc_shortcode-param[data-vc-shortcode-param-name="vsc_bg_repeat"],
+.vc_ui-panel-window[data-vc-shortcode="vc_row"] .vc_shortcode-param[data-vc-shortcode-param-name="vsc_bg_position"],
+.vc_ui-panel-window[data-vc-shortcode="vc_row"] .vc_shortcode-param[data-vc-shortcode-param-name="vsc_bg_size"] {
+  width: 33.33333%;
+}
+.vc_edit_form_elements .vc_column + .vc_column[data-param_type="holder"] {
+  padding: 0;
+  height: 0;
+}
+.controls_row .vc_row_video {
+  float: right;
+  margin: 3px 3px 0 0;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  font: normal normal normal 14px/18px FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.controls_row .vc_row_video:before {
+  content: "\f03d";
+}
+.wpb_vncp_speakers_box .vc_container_for_children,
+.wpb_vncp_pricetable_box .vc_container_for_children,
+.wpb_vncp_testimonials_box .vc_container_for_children {
+  background: #F5F5F5;
+  padding-top: 5px;
+}
+.wpb_vncp_speaker_bio.wpb_content_element,
+.wpb_vncp_pricetable.wpb_content_element,
+.wpb_vncp_testimonial.wpb_content_element {
+  margin: 5px 5px;
+}
+.wpb_vc_column .vc_control {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+.wpb_vc_column:hover .vc_control {
+  opacity: 1;
+}
+div[data-name="threads"] {
+  background: #fff0dd;
+}
+/*
+.updated.vc_license-activation-notice, .rs-update-notice-wrap { display: none; }
+*/

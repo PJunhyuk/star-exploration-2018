@@ -1,0 +1,8 @@
+{
+    "options": {
+        "ventcamp_customizer": "a:3:{s:11:\"hero_social\";a:4:{i:0;a:2:{s:4:\"type\";s:8:\"facebook\";s:3:\"url\";s:19:\"http:\/\/facebook.com\";}i:1;a:2:{s:4:\"type\";s:7:\"twitter\";s:3:\"url\";s:18:\"http:\/\/twitter.com\";}i:2;a:2:{s:4:\"type\";s:6:\"google\";s:3:\"url\";s:17:\"http:\/\/google.com\";}i:3;a:2:{s:4:\"type\";s:9:\"instagram\";s:3:\"url\";s:20:\"http:\/\/instagram.com\";}}s:13:\"footer_social\";a:4:{i:0;a:2:{s:4:\"type\";s:8:\"facebook\";s:3:\"url\";s:19:\"http:\/\/facebook.com\";}i:1;a:2:{s:4:\"type\";s:7:\"twitter\";s:3:\"url\";s:18:\"http:\/\/twitter.com\";}i:2;a:2:{s:4:\"type\";s:6:\"google\";s:3:\"url\";s:17:\"http:\/\/google.com\";}i:3;a:2:{s:4:\"type\";s:9:\"instagram\";s:3:\"url\";s:20:\"http:\/\/instagram.com\";}}s:36:\"ventcamp_hero_countdown_number_color\";s:7:\"#fe4918\";}"
+    },
+    "no_autoload": [
+
+    ]
+}

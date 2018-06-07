@@ -1,0 +1,253 @@
+/* Hide status panel
+---------------------- */
+
+#importer-status {
+    display: none;
+}
+
+/* =Importing animation (button)
+---------------------- */
+.importing span {
+    animation-name: blink;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+.importing span:nth-child(2) {
+    animation-delay: .2s;
+}
+
+.importing span:nth-child(3) {
+    animation-delay: .4s;
+}
+
+@keyframes blink {
+    0% {
+        opacity: .2;
+    }
+    20% {
+        opacity: 1;
+    }
+    100% {
+        opacity: .2;
+    }
+}
+
+/* =Loading style
+---------------------- */
+.loading-wrapper {
+    height: 100px;
+    text-align: center;
+}
+
+.line {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #fe4918;
+}
+
+/* =Animate the stuff
+------------------------ */
+.loading .line:nth-last-child(1) {animation: loadingAnim 1.5s 1s infinite;}
+.loading .line:nth-last-child(2) {animation: loadingAnim 1.5s .5s infinite;}
+.loading .line:nth-last-child(3) {animation: loadingAnim 1.5s 0s infinite;}
+
+@keyframes loadingAnim {
+    0% {
+        height: 15px;
+    }
+
+    50% {
+        height: 35px;
+    }
+
+    100% {
+        height: 15px;
+    }
+}
+
+.card-cap {
+    background: #fff;
+    border-radius: 2px 2px 0 0;
+    color: #595959;
+    padding: 20px;
+    text-align: center;
+}
+
+.card-cap h3 {
+    font-size: 16px;
+}
+
+.card-body {
+    background: #fff;
+    border-top: 1px solid #f5f5f5;
+    padding: 20px;
+}
+
+/* =Panel header
+------------------------ */
+.status-header {
+    background: #f5f5f5;
+    border-radius: 3px;
+    margin: 50px 0 10px;
+    padding: 10px 0;
+}
+
+.status-header:first-of-type {
+    margin-top: 0;
+}
+
+.status-container {
+    margin-bottom: 5px;
+    padding: 8px 0;
+}
+
+.status-container,
+.status-header {
+    width: 100%;
+}
+
+.status-container:after,
+.status-header:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.status-container .status-name,
+.status-header .status-name {
+    color: #777;
+    width: 20%;
+}
+
+/* =Status circle
+------------------------ */
+.status-container .import-status,
+.status-header .import-status {
+    background: #aaa;
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    margin-left: 10px;
+    width: 10px;
+}
+
+.status-container .import-status[data-import-status="success"],
+.status-header .import-status[data-import-status="success"] {
+    background: #20c05c;
+}
+
+.status-container .import-status[data-import-status="failed"],
+.status-header .import-status[data-import-status="failed"] {
+    background: #ed4949;
+}
+
+.status-container .import-status[data-import-status="pending"],
+.status-header .import-status[data-import-status="pending"] {
+    background: #fed42a;
+}
+
+.status-container .current-task,
+.status-header .current-task {
+    padding-right: 10px;
+    color: #888;
+}
+
+.status-container .current-task .status-success:before,
+.status-header .current-task .status-success:before {
+    color: #20c05c;
+}
+
+.status-container .current-task .status-failed:before,
+.status-header .current-task .status-failed:before {
+    color: #ed4949;
+}
+
+/* =Misc
+------------------------ */
+.header {
+    color: #aaa;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.status-bar {
+    background: #eee;
+    border-radius: 9px;
+    height: 18px;
+    width: 100%;
+}
+
+.status-bar .status-value {
+    background: #663399;
+    border-radius: 9px;
+    display: block;
+    height: 100%;
+    max-width: 100%;
+    min-width: 18px;
+    opacity: 0.7;
+}
+
+/* =Styling of table on mobile devices
+------------------------ */
+@media screen and (max-width: 782px) {
+    /* Don't display status table header */
+    .status-header {
+        display: none;
+    }
+
+    /* Remove all paddings */
+    .card-body {
+        padding: 0;
+    }
+
+    .status-container {
+        border: 1px solid #ddd;
+        /* Remove margin */
+        margin-bottom: 0;
+    }
+
+    .status-container .status,
+    .status-container .name,
+    .status-container .duration,
+    .status-container .current-task {
+        /* Behave  like a "row" */
+        border: none;
+        position: relative;
+        padding-left: 50%;
+        padding-right: 6px;
+        width: auto;
+    }
+
+    /* Add labels before every row */
+    .status-container .status:before,
+    .status-container .name:before,
+    .status-container .duration:before,
+    .status-container .current-task:before {
+        position: absolute;
+        /* Left value mimic padding */
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        font-weight: bold;
+        color: #444;
+    }
+
+    /* Fix status icon padding */
+    .status-container .import-status {
+        margin-left: 0;
+    }
+
+    /*
+    Label the data
+    */
+    .status-container .status:before	   { content: "Status"; }
+    .status-container .name:before		   { content: "Name of the task"; }
+    .status-container .duration:before	   { content: "Duration"; }
+    .status-container .current-task:before { content: "Result"; }
+}
+

@@ -1,0 +1,262 @@
+/* ----------------------------------------------------------------------------
+    Modal boxes
+---------------------------------------------------------------------------- */
+
+.modal-window {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    cursor: default;
+    z-index: 9999;
+
+    &:not(.base-clr-bg) {
+        background-color: fade(@white, 90%);
+    }
+
+    //
+    // Classes to hide modal boxes on particular devices
+    //
+
+    @media (min-width: @screen-lg) {
+        // Hide on desktops
+        &.hide_desktop {
+            display: none !important;
+        }
+    }
+
+    @media (min-width: @screen-sm) and (max-width: @screen-md-max) {
+        // Hide on tablets
+        &.hide_tablet {
+            display: none !important;
+        }
+    }
+
+    @media (max-width: @screen-xs-max) {
+        // Hide on mobile phones
+        &.hide_phone {
+            display: none !important;
+        }
+    }
+}
+
+.modal-box {
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    width: 64%;
+    max-width: 100%;
+    max-height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 40px 30px 25px;
+    border: 1px solid @gray-lighter;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+            background-size: cover;
+    -webkit-box-shadow: 0 0 25px 0 fade(@black, 12%);
+            box-shadow: 0 0 25px 0 fade(@black, 12%);
+
+    &:not(.base-clr-bg) {
+        background-color: @white;
+    }
+
+    .close-btn {
+        position: absolute;
+        top: 15px;
+        right: 30px;
+        font-size: 14px;
+        cursor: pointer;
+        opacity: 1;
+        z-index: 20;
+        -webkit-transition: color 0.2s ease, background 0.2s ease;
+        -o-transition: color 0.2s ease, background 0.2s ease;
+        transition: color 0.2s ease, background 0.2s ease;
+
+        &:not(:hover) {
+            color: @text-black;
+        }
+    }
+
+    &.hide_bg {
+        background-color: transparent !important; 
+        border: 0 !important; 
+        overflow-y: hidden !important; 
+    }
+
+    &.light-text .close-btn {
+        color: @text-white;
+
+        &:not(:hover) {
+            color: @text-white;
+        }
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+
+    // Remove paddings
+    .form { 
+        padding: 0;
+    } 
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    *:nth-child(2) {
+        margin-top: 0;
+    }
+
+    .vc_row { 
+        padding: 0;
+    }
+
+    .container {
+        width: auto;
+    }
+
+    //====================
+    // Iframe
+    //====================
+
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+    }
+
+    &.iframe-box,
+    &.iframe-box.large,
+    &.iframe-box.small {
+        padding: 0;
+        padding-bottom: 35.866%;
+
+        .close-btn {
+            top: 0;
+            right: 0;
+            padding: 12px;
+            font-size: 16px;
+            width: 40px;
+            line-height: 1;
+            background-color: fade(@white, 60%);
+
+            &:hover {
+                background-color: fade(@white, 95%);
+            }
+        }
+    }
+
+    //====================
+    // Modal box alignment
+    //====================
+
+    &.top {
+        top: 0;
+        bottom: auto;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    &.bottom {
+        top: auto;
+        bottom: 0;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    &.left {
+        float: left;
+    }
+
+    &.right {
+        float: right;
+    }
+
+
+    //================
+    // Modal box sizes
+    //================
+
+    // Small modals
+    &.small {
+        width: 30%;
+        padding: 30px 15px 20px;
+        font-size: 100%;
+
+        .close-btn {
+            font-size: 12px;
+            right: 15px;
+            top: 12px;
+        }
+    }
+
+    // Large modals
+    &.large {
+        width: 90%;
+        height: 100%;
+        padding: 50px 44px 25px;
+
+        .close-btn {
+            right: 50px;
+            top: 20px;
+        }
+    }
+
+    // Modal boxes on mobile phones
+    @media (max-width: @screen-xs-max) {
+        width: 90%;
+        padding: 40px 20px 25px;
+
+        &.small {
+            width: 60%;
+
+            .close-btn {
+                right: 20px;
+            }
+        }
+
+        &.large {
+            width: 100%;
+            padding: 50px 24px 25px;
+
+            .close-btn {
+                right: 30px;
+            }
+        }
+    }
+
+    // Modal boxes on mobile phones with
+    // slightly bigger screen
+    @media (max-width: @screen-xs-middle) {
+        width: 100%;
+
+        &.small {
+            width: 80%;
+        }
+    }
+
+    // Modal boxes on small screens/tablets
+    @media (max-width: @screen-sm-max) {
+        width: 70%;
+
+        &.small {
+            width: 40%;
+        }
+
+        &.large {
+            width: 94%;
+        }
+    }
+}

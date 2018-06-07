@@ -1,0 +1,159 @@
+/* ----------------------------------------------------------------------------
+    Footer
+---------------------------------------------------------------------------- */
+
+.footer {
+    color: @footer_text_color;
+    background-color: @footer_widgets_background_color;
+    // Add some padding to the top
+    padding-top: 45px;
+
+    h1, h2, h3, h4, h5, h6, small {
+        color: @footer_heading_color;
+    }
+
+    .fa,
+    .icon,
+    .highlight,
+    .base-clr-txt {
+        color: @footer_link_color;
+    }
+
+    a {
+        color: @footer_link_color;
+
+        &:hover {
+            color: @footer_link_color;
+        }
+    }
+
+    & > .container {
+        padding: 0;
+    }
+
+    .text-alt {
+        color: inherit;
+    }
+}
+
+.footer-base {
+    padding: 40px 0 30px;
+    background-color: @footer_background_color;
+    text-align: left;
+}
+
+.footer-nav > li {
+    margin-right: 25px;
+    display: inline-block;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    a {
+        .uppercase(@typography_menu_uppercase);
+        .italic(@typography_menu_italic);
+        .underline(@typography_menu_underline);
+        .strikethrough(@typography_menu_strikethrough);
+
+        font-family: @typography_menu_font_family;
+        font-size: @typography_menu_font_size;
+        font-weight: @typography_menu_font_weight;
+        text-decoration: none;
+        letter-spacing: 0.3em;
+        line-height: @typography_menu_line_height;
+        letter-spacing: @typography_menu_letter_spacing;
+        color: @footer_heading_color;
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: @footer_link_color;
+        }
+    }
+}
+
+.footer .socials-nav {
+    position: static;
+    top: auto;
+    left: auto;
+    right: auto;
+    display: inline-block;
+    width: auto;
+    max-width: 60%;
+    text-align: left;
+
+    .socials-nav-item {
+        margin: 0 8px;
+        line-height: 1;
+
+        a {
+            &:not(:hover):not(:active):not(:focus) {
+                color: @footer_heading_color;
+            }
+
+            .fa {
+                color: inherit;
+            }
+
+            &:hover,
+            &:focus,
+            &:active {
+                color: @footer_link_color;
+            }
+        }
+    }
+
+    & + p {
+        float: right;
+        margin: 0;
+        vertical-align: top;
+        display: inline-block;
+        line-height: 25px;
+
+        small {
+            color: @footer_text_color;
+        }
+    }
+}
+
+
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+    .footer-nav > li {
+        margin-right: 16px;
+    }
+
+    .footer .socials-nav {
+        margin-left: -15px;
+
+        .socials-nav-item {
+            margin: 0 2px;
+        }
+    }
+}
+
+@media (max-width: @screen-xs-max) {
+    .footer-base {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .footer-nav > li {
+        margin: 0 10px 5px 0;
+    }
+
+    .footer .socials-nav {
+        margin: 20px 0 20px -12px;
+        width: 100%;
+        text-align: left;
+        display: block;
+
+        .socials-nav-item {
+            margin: 0 6px;
+        }
+
+        & + p {
+            float: none;
+        }
+    }
+}

@@ -1,0 +1,254 @@
+/* ----------------------------------------------------------------------------
+    EventEspresso styling
+---------------------------------------------------------------------------- */
+
+.eespresso-container {
+  padding-bottom: 50px;
+
+  .entry-title a {
+    color: @gray-darker;
+
+    &:hover{
+      text-decoration: none;
+      opacity: 0.9;
+    }
+  }
+
+  .nav-current {margin-top:10px;}
+
+  h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 25px;
+    letter-spacing: 0;
+  }
+}
+
+.tiny-text {
+  font-size: .7em;
+  line-height: 1.1em;
+  letter-spacing: 0.45px;
+}
+
+.eespresso {
+  .ee-event-img-dv {
+    height: 420px;
+    overflow: hidden;
+
+    img {
+      height: auto;
+      top: 50%;
+      position: relative;
+      transform: translate(0,-50%);
+    }
+  }
+}
+
+#ee-single-page-checkout-dv .section-title {
+  font-size: 18px;
+  letter-spacing: 0;
+  font-weight: 700;
+}
+
+.section-heading.display-box-heading {
+  font-size: 25px;
+  text-transform: uppercase;
+  line-height: 1.7;
+  letter-spacing: 0.2em;
+  color: @gray-darker;
+  font-weight: 700;
+}
+
+#a .ee-table {border-width:1px;}
+
+.ee-button-lnk.inline-button.ee-invoice-lnk {
+  padding: 20px 25px 18px;
+  color: @skin_accent_color;
+  background-color: rgba(255, 255, 255, 0);
+  border-width: 1px;
+  border-color: @skin_accent_color;
+  border-radius: 4px;
+}
+
+// Highlight the active step
+.spco-step-display-dv.active-step span {
+  color:red;
+}
+
+.spco-ticket-info-dv h5 {
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 1.7;
+  letter-spacing: 0.2em;
+  opacity: 0.5;
+  font-weight: 700;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.ee-attention {border: 4px solid @skin_accent_color;}
+
+#venue-details-h1 {margin-bottom:0;}
+
+.venue-content .ee-event-h3,
+.venue-location .ee-venue-h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.venue-location .venue-gmap {
+  margin-top: 20px;
+}
+
+.ee-gmap-wrapper, .ee-gmap {width:100% !important;}
+
+.powered-by-event-espresso-credit {
+  margin-top: -30px;
+}
+
+.ee-spinner { color: @skin_accent_color; }
+
+.ee-button {
+  // Change background color
+  &,
+  &:active,
+  &:hover,
+  &:visited {
+    background: @skin_accent_color;
+  }
+
+  // Add opacity on hover
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+/*
+  Ticket details section on ticket page
+ */
+.tckt-slctr-tkt-details-sctn {
+  // Don't show "Details" heading
+  h3 {
+    display: none;
+  }
+
+  // Small headings such as "Sale Dates", "Access" and so on
+  h5 {
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 1.7;
+    letter-spacing: 0.2em;
+    opacity: 0.9;
+    font-weight: 700;
+  }
+}
+
+// Text in ticket selector table
+.tkt-slctr-tbl {
+  .small-text,
+  .smaller-text {
+    font-size: 13px;
+  }
+}
+
+// Align ticket price by center
+.tckt-slctr-tbl-td-price {
+  text-align: center;
+}
+
+// Change appearance of the button
+.ticket-selector-submit-btn,
+.spco-next-step-btn {
+  padding: 10px 20px 10px;
+  color: @white;
+  background-color: @skin_accent_color;
+  border-width: 0;
+  border-color: rgba(255, 255, 255, 0);
+  border-radius: 4px;
+}
+
+.ticket-selector-submit-btn,
+.spco-next-step-btn {
+  text-transform: uppercase;
+  padding: 13px 19px 12px;
+  font-family: "PT Sans Caption", Roboto !important;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.59em;
+}
+
+.spco-step-dv { margin-bottom: 10px; }
+
+/* VC Integration styles */
+
+.vc-events-list {
+  h1 {
+    font-size: 50px;
+  }
+
+  .page-header {
+    border-bottom: 0px solid @gray-lighter;
+  }
+
+  article {
+    &.espresso_events {
+      max-width: 320px;
+      float: left;
+      display: block;
+      height: 415px;
+      padding: 0 10px;
+      border: 1px solid @gray-lighter;
+      margin: 0 10px;
+
+      &:hover {
+        border: 1px solid @skin_accent_color;
+      }
+    }
+
+    .event-header {
+      h2 {
+        font-size: 16px;
+        text-transform: uppercase;
+        line-height: 1.7;
+        letter-spacing: 0.1em;
+        font-weight: 700;
+        margin: 0;
+
+        // Remove default link behavior
+        a:hover {
+          text-decoration: none;
+          opacity: 0.9;
+        }
+      }
+    }
+  }
+
+  .event-content {
+    width: 100%;
+    display: table;
+
+    form:not(.download-iCal-frm) {
+      display: table-footer-group;
+      width: 100%;
+    }
+
+    .view-details-btn {
+      width: 100%;
+    }
+  }
+
+  .espresso-event-list-wrapper-dv p {display:none;}
+
+  .ee-event-img {min-height:223px;}
+  .event-datetimes li { width:100%;}
+  .download-iCal-frm {margin:0;}
+  .event-datetimes .ee-ical-sbmt {background: transparent;border: 0;color: @skin_accent_color;}
+}
+

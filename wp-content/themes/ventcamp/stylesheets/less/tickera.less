@@ -1,0 +1,206 @@
+/* ----------------------------------------------------------------------------
+    Tickera styling
+---------------------------------------------------------------------------- */
+
+
+.tickera {
+  &-container {
+
+    min-height: 720px;
+    margin-bottom: 40px;
+    max-width: 960px !important;
+
+    .content {
+      padding-top: 50px;
+    }
+
+    .entry-header {
+      
+    }
+  }
+
+  th {
+    &:extend(.base-clr-bg);
+
+    font-family: @typography_heading_font_family;
+    font-weight: 600;
+    color: @text-white;
+    border: none !important;
+  }
+
+  tr:nth-child(even) {
+    border-color: transparent;
+  }
+
+  &-checkout {
+    font-family: @typography_body_font_family;
+    color: @skin_text_color;
+    margin-bottom: 45px;
+  }
+
+  input.tickera-button {
+    background-color: transparent;
+    color: @skin_accent_color;
+    border: 1px solid @skin_accent_color;
+    padding: .618em 1em;
+    font-weight: 700;
+    border-radius: 3px;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+
+    &:hover {
+      color: #fff;
+      background-color: @skin_accent_color;
+    }
+
+    &.tickera_checkout {
+      color: #ffffff;
+      background-color: @skin_accent_color;
+
+      &:hover {
+        background-color: @button_hov_background_color;
+        color: #ffffff;
+      }
+    }
+  }
+
+  &-input-field {
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  &_checkout {
+    margin-top: 0;
+  }
+
+  &_additional_info {
+    &:after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+
+  &-payment-gateways {
+    margin-top: 35px;
+  }
+
+  &-payment-gateways .tickera-height.tc_gateway_form {
+    margin: 0 0 10px;
+  }
+
+  &-payment-gateways {
+    float: none;
+    padding: 6px 20px;
+  }
+
+  &_table {
+    border-top-width: 1px;
+  }
+
+  &_owner_info {
+    min-height: 350px;
+    h2 {
+      margin-top: 0;
+    }
+
+    h5 {
+      margin-bottom: 20px;
+    }
+  }
+
+  &_buyer_info {
+    border-bottom: none;
+  }
+}
+
+.tickera,
+.tc_cart_errors {
+  margin-top: 35px;
+}
+
+.ticket-quantity .tickera_button {
+  color: @skin_accent_color;
+}
+
+#coupon_code {
+  width: 110px;
+  height: auto;
+}
+
+.coupon-code {
+  float: left;
+  margin-right: 4px;
+}
+
+.fields-wrap span {
+  margin-bottom: 6px;
+}
+
+#tickera_cart {
+  h2, h3 {
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: 700;
+    color: @skin_accent_color;
+  }
+}
+
+input[type=radio].tc_choose_gateway {
+  margin-right: 8px;
+  position: relative;
+  top: 1px;
+}
+
+#tc_payment_form {
+  margin-bottom: 50px;
+}
+
+a.add_to_cart {
+  &:extend(.btn all);
+
+  padding: 11px 18px 13px;
+
+  &:before {
+    content: "\f145";
+    font-family: "FontAwesome";
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    top: 2px;
+    margin-right: 7px;
+  }
+}
+
+.event_tickets a.add_to_cart {
+  &:extend(.btn-alt all);
+
+  padding: 10px 15px 10px;
+  letter-spacing: 0.39em;
+
+  &:before {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .tickera_buyer_info,
+  .tickera_owner_info {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+  }
+
+  .tickera_buyer_info {
+    padding-right: 20px;
+  }
+
+  .tickera_owner_info {
+    padding-left: 20px;
+  }
+}

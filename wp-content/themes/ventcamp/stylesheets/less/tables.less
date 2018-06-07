@@ -1,0 +1,58 @@
+/* ----------------------------------------------------------------------------
+    Tables
+---------------------------------------------------------------------------- */
+
+
+table, .table {
+    text-align: left;
+    border-style: solid;
+    border-width: 0 0 1px;
+    border-color: @gray-lighter;
+    width: 100%;
+	border-bottom: 1px solid #ededed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 14px;
+    line-height: 2; 
+	
+	& tr:nth-child(even) {background: #F3F3F3;}
+	
+    & > thead > tr {
+        & > th,
+        & > td {
+            &:extend(.base-clr-bg);
+
+            font-family: @typography_heading_font_family;
+            font-weight: 600;
+            color: @text-white;
+            border: none !important;
+        }
+    }
+
+    & > thead > tr > th,
+    & > tbody > tr > th,
+    & > tfoot > tr > th,
+    & > thead > tr > td,
+    & > tbody > tr > td,
+    & > tfoot > tr > td {
+        vertical-align: middle;
+        padding: 10px 15px;
+        border-style: solid;
+        border-width: 0 1px 0 1px;
+        border-color: @gray-lighter;
+    }
+}
+
+
+/* Media queries */
+
+@media (max-width: @screen-xs-max) {
+    .table > thead > tr > th,
+    .table > tbody > tr > th,
+    .table > tfoot > tr > th,
+    .table > thead > tr > td,
+    .table > tbody > tr > td,
+    .table > tfoot > tr > td {
+        padding: 10px;
+    }
+}

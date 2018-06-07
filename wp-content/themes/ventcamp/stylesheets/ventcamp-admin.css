@@ -1,0 +1,9 @@
+/* ACF */
+.acf-single-repeater .acf-row .acf-row-handle .acf-icon,
+.acf-single-repeater .acf-button.disabled {
+  display: none;
+}
+
+.acf-single-repeater .acf-row .acf-fields .acf-row-handle .acf-icon {
+  display: block;
+}

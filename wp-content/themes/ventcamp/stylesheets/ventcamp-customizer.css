@@ -1,0 +1,77 @@
+#ventcamp-reset{
+    float: right;
+    margin-right: 10px;
+    margin-top: 9px;
+}
+
+div.vc-mobile-preview{
+    -webkit-box-shadow: inset 0px 0px 300px -86px rgba(0,0,0,1);
+    -moz-box-shadow: inset 0px 0px 300px -86px rgba(0,0,0,1);
+    box-shadow: inset 0px 0px 300px -86px rgba(0,0,0,1);
+    text-align: center;
+    background-color: #3F3F3F;
+}
+
+div.vc-mobile-preview iframe{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 90%;
+    height: 80% !important;
+    min-height: 540px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border: 10px solid #d7d7d7;
+    margin-top: 10%;
+    box-shadow: 0 0 100px rgba(0,0,0,.8);
+    -webkit-box-shadow: 0 0 100px rgba(0,0,0,.8);
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+    -moz-animation: zoomIn .6s;
+    -webkit-animation: zoomIn .6s;
+    -o-animation: zoomIn .6s;
+    animation: zoomIn .6s;
+}
+
+div.vc-tablet-preview iframe {
+    max-width: 805px !important;
+}
+
+div.vc-phone-preview iframe {
+    max-width: 355px !important;
+}
+
+div.vc-mobile-menu-preview iframe {
+    max-width: 355px !important;
+}
+
+/*
+   Show color picker and "Default" buttons
+ */
+.wp-picker-container input[type="text"].wp-color-picker,
+.wp-customizer .wp-picker-input-wrap .button,
+.wp-picker-input-wrap .button {
+    display: inline-block !important;
+}
+
+/*
+    Styling of color fields
+ */
+.customize-control-color .wp-picker-container a.wp-color-result,
+.customize-control-kirki-color .wp-picker-container a.wp-color-result {
+    position: relative;
+    display: inline-block !important;
+    width: 50% !important;
+    padding: 0 !important;
+    height: 28px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+/*
+    Remove left border radius from color field
+ */
+.wp-picker-container input[type="text"].wp-color-picker {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}

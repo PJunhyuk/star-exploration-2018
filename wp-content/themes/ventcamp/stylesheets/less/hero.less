@@ -1,0 +1,165 @@
+/* ----------------------------------------------------------------------------
+      Hero headings
+  ---------------------------------------------------------------------------- */
+
+.hero-heading-main {
+  .uppercase(@hero_heading_typography_uppercase);
+  .italic(@hero_heading_typography_italic);
+  .underline(@hero_heading_typography_underline);
+  .strikethrough(@hero_heading_typography_strikethrough);
+
+  margin: 10px 0 15px;
+  font-family: @hero_heading_typography_font_family;
+  font-size: @hero_heading_typography_font_size;
+  font-weight: @hero_heading_typography_font_weight;
+  line-height: @hero_heading_typography_line_height;
+  letter-spacing: @hero_heading_typography_letter_spacing;
+}
+
+.hero-heading-top {
+  .uppercase(@hero_upper_typography_uppercase);
+  .italic(@hero_upper_typography_italic);
+  .underline(@hero_upper_typography_underline);
+  .strikethrough(@hero_upper_typography_strikethrough);
+
+  margin: 0 0 10px;
+  font-family: @hero_upper_typography_font_family;
+  font-size: @hero_upper_typography_font_size;
+  font-weight: @hero_upper_typography_font_weight;
+  line-height: @hero_upper_typography_line_height;
+  letter-spacing: @hero_upper_typography_letter_spacing;
+}
+
+.hero-heading-bottom {
+  .uppercase(@hero_lower_typography_uppercase);
+  .italic(@hero_lower_typography_italic);
+  .underline(@hero_lower_typography_underline);
+  .strikethrough(@hero_lower_typography_strikethrough);
+
+  margin: 0 0 10px;
+  font-family: @hero_lower_typography_font_family;
+  font-size: @hero_lower_typography_font_size;
+  font-weight: @hero_lower_typography_font_weight;
+  line-height: @hero_lower_typography_line_height;
+  letter-spacing: @hero_lower_typography_letter_spacing;
+}
+
+@media (max-width: @screen-sm-max ) {
+  .hero-heading-main {
+    font-size: 5.5em;
+  }
+
+  .hero-heading-top {
+    font-size: 1em;
+  }
+
+  .hero-heading-bottom {
+    font-size: 1.2em;
+  }
+}
+
+.hero-section {
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
+
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .hero-img {
+    position: relative;
+
+    span.icon {
+      position:absolute;
+      left: 50%;
+      top: 50%;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      background-repeat: no-repeat;
+      background-color: transparent;
+    }
+  }
+
+  /* ----------------------------------------------------------------------------
+      Hero style 2 form styling
+  ---------------------------------------------------------------------------- */
+
+  &.hero-style-2 {
+    .wpcf7-form {
+      // Form background
+      .form-content {
+        background-color: @hero_style_2_form_background;
+      }
+
+      // Heading styling
+      .form-heading {
+        .uppercase(@hero_style_2_form_heading_uppercase);
+        .italic(@hero_style_2_form_heading_italic);
+        .underline(@hero_style_2_form_heading_underline);
+        .strikethrough(@hero_style_2_form_heading_strikethrough);
+
+        padding: 30px 12px 0 12px;
+        font-family: @hero_style_2_form_heading_font_family;
+        font-size: @hero_style_2_form_heading_font_size;
+        font-weight: @hero_style_2_form_heading_font_weight;
+        line-height: @hero_style_2_form_heading_line_height;
+        letter-spacing: @hero_style_2_form_heading_spacing;
+        color: @hero_style_2_form_heading_color;
+      }
+
+      // Color of the labels
+      label {
+        color: @hero_style_2_form_label_color;
+
+        @media (max-width: @screen-sm-max ) {
+          font-size: @phone_body_text_font_size;
+        }
+      }
+    }
+  }
+
+  /* ----------------------------------------------------------------------------
+      Hero style 3 form styling
+  ---------------------------------------------------------------------------- */
+
+  &.hero-style-3 {
+    .wpcf7-form {
+      text-align: left;
+    }
+  }
+
+  @media (max-width: @screen-xs-max ) {
+    .heading-block {
+      text-align: center;
+      width: 100%;
+    }
+
+    &.hero-style-2 {
+      .wpcf7-form {
+        margin-top: 30px;
+
+        // Reduce top and bottom paddings
+        .form {
+          padding: 12px;
+
+          fieldset {
+            // Reduce paddings between form groups
+            padding: 0 5px 5px 5px;
+          }
+
+          p {
+            // Remove margin
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}

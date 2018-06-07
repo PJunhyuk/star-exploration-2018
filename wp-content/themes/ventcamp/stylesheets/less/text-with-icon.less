@@ -1,0 +1,188 @@
+/* ----------------------------------------------------------------------------
+    Text with icon
+---------------------------------------------------------------------------- */
+
+.vnp-text-icon {
+    position: relative;
+    margin: 0 0 30px;
+    padding: 0;
+
+    .vnp-service-content {
+        h6 {
+            margin-top: 0;
+        }
+    }
+
+    .vnp-service-icon {
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
+        line-height: 1;
+
+        & > span {
+            margin: 0;
+            display: inline-block;
+            font-size: 3.2em;
+            line-height: inherit;
+            text-align: center;
+            line-height: inherit;
+            border-style: solid;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
+            &:before {
+                line-height: 1;
+                color: inherit;
+            }
+        }
+    }
+}
+
+.vnp-text-icon {
+    &.icon-top,
+    &.icon-bottom {
+        .vnp-service-icon {
+            display: block;
+        }
+
+        .vnp-service-content {
+            text-align: center;
+        }
+    }
+
+    &.icon-left,
+    &.icon-right {
+        .vnp-service-icon {
+            top: 50%;
+            display: inline-block;
+
+            & > span {
+                -webkit-transform: translateY(-50%);
+                -ms-transform: translateY(-50%);
+                -o-transform: translateY(-50%);
+                transform: translateY(-50%);
+            }
+        }
+    }
+
+    &.icon-top {
+        padding-top: 62px;
+
+        .vnp-service-icon {
+            top: 0;
+
+            & > span {
+                vertical-align: top;
+            }
+        }
+    }
+
+    &.icon-bottom {
+        padding-bottom: 52px;
+
+        .vnp-service-icon {
+            bottom: 0;
+
+            & > span {
+                vertical-align: bottom;
+            }
+        }
+    }
+
+    &.icon-left {
+        padding-left: 72px;
+
+        .vnp-service-content {
+            text-align: left;
+        }
+
+        .vnp-service-icon {
+            right: auto;
+        }
+    }
+
+    &.icon-right {
+        padding-right: 72px;
+
+        .vnp-service-content {
+            text-align: right;
+        }
+
+        .vnp-service-icon {
+            left: auto;
+        }
+    }
+}
+
+.vnp-text-icon.icon-single {
+    &.icon-right,
+    &.icon-left {
+        .vnp-service-icon > span {
+            width: 1em;
+            height: 1em;
+            border-width: 0;
+            border-style: none;
+            background: none;
+            border-radius: 0;
+        }
+    }
+}
+
+.vnp-text-icon.icon-border {
+    .vnp-service-icon > span {
+        width: 2em;
+        height: 2em;
+        padding: 0.44em 0;
+        font-size: 1.65em;
+        border-width: 2px;
+        border-color: @skin_accent_color;
+
+        &:before {
+            vertical-align: top;
+        }
+    }
+
+    &.icon-border-solid .vnp-service-icon > span {
+        border-style: solid;
+    }
+
+    &.icon-border-dashed .vnp-service-icon > span {
+        border-style: dashed;
+    }
+
+    &.icon-border-dotted .vnp-service-icon > span {
+        border-style: dotted;
+    }
+}
+
+.vnp-text-icon.icon-solid {
+    .vnp-service-icon > span {
+        width: 2em;
+        height: 2em;
+        padding: 0.44em 0;
+        font-size: 1.65em;
+        color: contrast(@skin_accent_color, @text-gray-dark, @text-white);
+        background-color: @skin_accent_color;
+        border-width: 2px;
+        border-style: solid;
+        border-color: @skin_accent_color;
+
+        &:before {
+            vertical-align: top;
+        }
+    }
+}
+
+.vnp-text-icon.icon-round .vnp-service-icon > span {
+    border-radius: 50%;
+}
+
+.vnp-text-icon.icon-square .vnp-service-icon > span {
+    border-radius: 0;
+}
+
+.vnp-text-icon.icon-round-square .vnp-service-icon > span {
+    border-radius: 3px;
+}
